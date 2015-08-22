@@ -57,7 +57,7 @@ For reference and comparison, this is a much cleaner reception of the same image
 
 I also found [a video posted by `K7AGE`](https://youtu.be/yAzX4S4KEyc?t=202) of his setup receiving the same transmission. If you're curious what SSTV looks and sounds like, click the link or picture below.
 
-[![K7AGE Video of SSTV](http://i.imgur.com/prhLpd3.png)](https://youtu.be/yAzX4S4KEyc?t=202)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yAzX4S4KEyc?start=202" frameborder="0" allowfullscreen></iframe>
 
 I had a lot of fun doing this project; it was my first home-made antenna and I heard the space station on it. That's enough of an accomplishment that I'm okay that the picture is grainy and incomplete. I hope to get back out there and maybe one day talk back to the ISS!
 
