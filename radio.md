@@ -6,7 +6,10 @@ permalink: /radio/
 
 Ahoy!
 
-You've reached the web page and blog of Mark, `W1IDE`. I'm located in Central Massachusetts and I'm a member of [CMARA](http://www.cmara.org). You can find me on the [`W1BIM`](http://www.cmara.org/) repeater most often.
+You've reached the web page and blog of Mark, `W1IDE`. I'm a member of the [Central Massachusetts
+Amateur Radio Association](http://www.cmara.org) and the [Worcester Emergency Communications Team](http://www.wect.org/). 
+
+You can find me on the [`W1BIM`](http://www.cmara.org/) repeater most often. I'm in central Massachusetts, so you may hear me on some other local repeaters occasionally. 
 
 My call is a vanity call. It's not a family call or anything like that, I was just able to fit my whole last name in there.
 
