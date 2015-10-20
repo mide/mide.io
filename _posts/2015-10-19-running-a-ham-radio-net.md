@@ -41,6 +41,8 @@ To listen to what a net sounds like, this is a recording of [George's Old Timer'
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/229182791%3Fsecret_token%3Ds-Mdayk&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
+We heard from the following stations during the net: [`W1IDE`](http://qrz.com/db/w1ide), [`KB1VXY`](http://qrz.com/db/kb1vxy), [`W1LEB`](http://qrz.com/db/w1leb), [`W1OCJ`](http://qrz.com/db/w1ocj), [`WA1GVM`](http://qrz.com/db/wa1gvm), [`NG1I`](http://qrz.com/db/ng1i), [`K1QJM`](http://qrz.com/db/k1qjm), [`WW2JS`](http://qrz.com/db/ww2js), [`KC1CAR`](http://qrz.com/db/kc1car), [`W1IY`](http://qrz.com/db/w1iy), [`K1RAU`](http://qrz.com/db/k1rau), [`KC1DWX`](http://qrz.com/db/kc1dwx), [`WA1MDD`](http://qrz.com/db/wa1mdd), [`N1RWW`](http://qrz.com/db/n1rww), and [`N1TZM`](http://qrz.com/db/n1tzm).
+
 ### Callup Procedure
 
 You can follow the script that may have been provided. The basics is just asking for callsign, name and location. We normally ask for mobiles first and then everyone else.
