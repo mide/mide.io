@@ -14,7 +14,7 @@ A ham radio net is nothing more than the chat room of the airwaves, but because 
 
 There are two kinds of nets, formal and informal. Formal nets, like [CM2M](http://www.cm2m.net/) of the [NTS](http://www.arrl.org/nts), meet with the purpose of discussing their matters in a formal matter. For example, traffic nets will handle formal written traffic, [ARES](http://www.arrl.org/ares) and [RACES](http://www.qsl.net/races/) nets practice for emergency communications. It is rare to hear someone talking about their day during a formal net, as that sort of content is best suited outside the net.
 
-Informal nets, like George's Old Timer's Net, operate with a little more flexibility. In GOTN, we have a topic of the day and some fun trivia. It offers local operators an opportunity to share their daily stories with everyone and have a little fun. Some informal nets might offer help to new hams, where local operators can contribute help.
+Informal nets, like George's Old Timer's Net, operate with a little more flexibility. In GOTN, we have a topic of the day and some fun trivia. It offers local operators an opportunity to share their daily stories with everyone and have a little fun. Some informal nets might offer help to new hams, where local operators can contribute.
 
 Regardless of the type of net, formal or informal, there is still a net control station (NCS) that dictates whose turn it is to talk.
 
