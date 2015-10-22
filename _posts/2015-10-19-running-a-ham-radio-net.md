@@ -37,9 +37,9 @@ If your net has a script to follow, you'll want to have that ready. I follow the
 If you're planning on doing trivia or the alike, you will want to have a good list ready ahead of time - it's very hard to produce trivia on the fly while maintaining your list of check-ins.
 
 ## Running the Net
-To listen to what a net sounds like, this is a recording of [George's Old Timer's Net](https://github.com/cmara/georges-net-script) from Monday, October 19th, 2015.
+To listen to what a net sounds like, this is a recording of [George's Old Timer's Net](https://github.com/cmara/georges-net-script) from Monday, October 19th, 2015. Please note that some audio has been redacted by request.
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/229182791%3Fsecret_token%3Ds-Mdayk&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/229518846%3Fsecret_token%3Ds-NW6ho&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 We heard from the following stations during the net: [`W1IDE`](http://qrz.com/db/w1ide), [`KB1VXY`](http://qrz.com/db/kb1vxy), [`W1LEB`](http://qrz.com/db/w1leb), [`W1OCJ`](http://qrz.com/db/w1ocj), [`WA1GVM`](http://qrz.com/db/wa1gvm), [`NG1I`](http://qrz.com/db/ng1i), [`K1QJM`](http://qrz.com/db/k1qjm), `REDACTED`, [`KC1CAR`](http://qrz.com/db/kc1car), [`WI1Y`](http://qrz.com/db/wi1y), [`K1RAU`](http://qrz.com/db/k1rau), [`KC1DWX`](http://qrz.com/db/kc1dwx), [`WA1MDD`](http://qrz.com/db/wa1mdd), [`N1RWW`](http://qrz.com/db/n1rww), and [`N1TZM`](http://qrz.com/db/n1tzm).
 
