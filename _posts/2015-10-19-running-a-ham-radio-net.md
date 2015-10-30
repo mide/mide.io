@@ -61,13 +61,15 @@ Since you're the net control, you also have to say what net you're running. Chan
 
 When you're done with the net, you will need to release the repeater back to regular amateur radio use.
 
-It's pretty normal to thank the club that runs the repeater and all the repeater trustees. They do listen, even sometimes check in, and they do appreciate hearing the thanks.
+It's pretty normal to thank the club that runs the repeater and all the repeater trustees. They listen, sometimes check in, and definitely appreciate hearing the thanks.
+
+If you're running an established net, this will probably be in your script.
 
 ## Considerations & Tips
 
 ### Don't Quick Key
 
-Emergency traffic always has priority; if you quick key (transmit quickly without leaving a break for the next person), you may not hear stations calling. It may not even be an emergency, it could just be a comment or a station who has a question.
+Emergency traffic always has priority; if you quick key (transmit quickly without leaving a break for the next person), you may not hear stations calling. And it may not even be an emergency, it could just be a comment or a station who has a question. Always be sure to leave enough of a gap for someone trying to break in.
 
 Also, it's worth noting that some radios require the carrier signal to completely drop before transmitting. Especially during the call-ups you should let the repeater completely drop it's signal before keying so that people running said equipment can be heard.
 
@@ -75,7 +77,7 @@ Also, it's worth noting that some radios require the carrier signal to completel
 
 Occasionally you may come across harmful interference (QRM). By definition, this interference is illegal, and it is actually against FCC regulations to respond to it. Because of the nature of the event, it's not beneficial to acknowledge the troublesome stations either.
 
-You can, and it's generally accepted that, the net control operator  increase power output to overcome the interference.
+You can, and it's generally accepted that, the net control operator increase power output to overcome the interference.
 
 ### Practice for Emergencies
 
@@ -87,6 +89,6 @@ If you're net control for the evening, it's a good idea to make sure your equipm
 
 ### Fill-ins / Substitutes
 
-If you're unable to run the net, it's a good idea to get coverage in advance. If I know I'm not going to be able to make the net, I'll call someone on the radio ask for coverage. Herb, [`KC1CAR`](https://qrz.com/db/kc1car) has been very helpful in making sure someone always runs the net.
+If you're unable to run the net, it's a good idea to get coverage in advance. If I know I'm not going to be able to make the net, I'll call someone on the radio ask for coverage. Recently Herb, [`KC1CAR`](https://qrz.com/db/kc1car), has been very helpful in making sure someone always runs the net.
 
-It's pretty common that other operators will pick up the net after a few minutes of silence. For example, if the net is supposed to begin at 7:30, and no one has started it by 7:35, someone else will start it.
+It's pretty common that other operators will pick up the net after a few minutes of silence. For example, if the net is supposed to begin at 7:30, and no one has started it by 7:35, someone else should start it.
