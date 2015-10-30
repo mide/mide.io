@@ -88,3 +88,5 @@ If you're net control for the evening, it's a good idea to make sure your equipm
 ### Fill-ins / Substitutes
 
 If you're unable to run the net, it's a good idea to get coverage in advance. If I know I'm not going to be able to make the net, I'll call someone on the radio ask for coverage. Herb, [`KC1CAR`](https://qrz.com/db/kc1car) has been very helpful in making sure someone always runs the net.
+
+It's pretty common that other operators will pick up the net after a few minutes of silence. For example, if the net is supposed to begin at 7:30, and no one has started it by 7:35, someone else will start it.
