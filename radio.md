@@ -16,7 +16,7 @@ If you want to chat, you can find me on the [`W1BIM`](http://www.cmara.org/) rep
 
 ## Nets
 
-I am the Monday night net control for the *George's Old Timer's Net* which is held most nights at 7:30 from the Paxton, MA [`W1BIM`](http://www.cmara.org/) repeater. Feel free to check in or listen; we try to keep conversations lively with nightly topics and trivia questions. It's a good time had by all.
+I run *George's Old Timer's Net* alternating Mondays with [`NG1I`](http://qrz.com/db/ng1i/). The net is held most nights at 7:30 from the Paxton, MA [`W1BIM`](http://www.cmara.org/) repeater. Feel free to check in or listen; we try to keep conversations lively with nightly topics and trivia questions. It's a good time had by all.
 
 ## Clubs
 
