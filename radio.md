@@ -23,4 +23,4 @@ I run *George's Old Timer's Net* alternating Mondays with [`NG1I`](http://qrz.co
 I particpate in the following clubs:
 
 * *(Club Secretary)* [Central Massachusetts Amateur Radio Association](http://www.cmara.org) (CMARA)
-* *(Member) *[Worcester Emergency Communications Team](http://www.wect.org/) (WECT)
+* *(Member)* [Worcester Emergency Communications Team](http://www.wect.org/) (WECT)
