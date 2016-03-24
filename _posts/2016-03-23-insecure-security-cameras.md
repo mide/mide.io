@@ -71,4 +71,4 @@ My computer is no longer impacted by the poor performance of the client. I know 
 
 The current state of consumer level security camera systems is pretty sad. I was really hoping for some open standards that I could use to my benefit, like custom clients or reports. It's been some time since my initial search, but I'd give more attention to [IP cameras](https://en.wikipedia.org/wiki/IP_camera) on a second pass.
 
-If you're looking to get a camera system, keep in mind the limitations you may hit. And definately disable [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play#NAT_traversal)!
+If you're looking to get a camera system, keep in mind the limitations you may hit. And definitely disable [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play#NAT_traversal)!
