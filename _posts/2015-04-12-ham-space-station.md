@@ -37,7 +37,7 @@ I used [the design by `WB2HOL`](http://theleggios.net/wb2hol/projects/rdf/tape_b
 
 That list might seem to be overwhelming, but take a look at the image from `WB2HOL`'s site below. Assembly plans should be clear now. If not, be sure to [read his page](http://theleggios.net/wb2hol/projects/rdf/tape_bm.htm).
 
-![Tape Measure Yagi Design](http://i.imgur.com/fYFjjDk.jpg)
+![Tape Measure Yagi Design](https://i.imgur.com/fYFjjDk.jpg)
 
 It's a good idea to tape off the ends of the cut tape measure - they'll be very sharp and you don't want to hurt yourself.
 
@@ -47,13 +47,13 @@ I used [Robot36 - SSTV Image Decoder](https://play.google.com/store/apps/details
 
 Seeing as this was my first time listening for the space station, I was very excited when I saw anything at all. I'm pretty sure some of the interference you see is from me yelling "I got it!". Next time around, I'd definitely want to use a hard link between the radio and the software to cut back on some of the interference.
 
-![Decoded SSTV Image](http://i.imgur.com/TSjqIUc.jpg)
+![Decoded SSTV Image](https://i.imgur.com/TSjqIUc.jpg)
 
 You can see how the image became more distorted as the ISS was going out of range. Unfortunately, my timing cut off the first bit of the image, but I was able to copy most of it. Even with all the noise, it was a great success!
 
 For reference and comparison, this is a much cleaner reception of the same image (possibly a different transmission). The [other images from this set](http://ariss-sstv.blogspot.com/2015/04/series-3-images.html) are all online.
 
-![High Quality Copy](http://imgur.com/thk06Za.jpg)
+![High Quality Copy](https://imgur.com/thk06Za.jpg)
 
 I also found [a video posted by `K7AGE`](https://youtu.be/yAzX4S4KEyc?t=202) of his setup receiving the same transmission. If you're curious what SSTV looks and sounds like, click the link or picture below.
 
