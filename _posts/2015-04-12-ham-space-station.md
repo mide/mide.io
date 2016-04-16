@@ -55,7 +55,7 @@ For reference and comparison, this is a much cleaner reception of the same image
 
 ![High Quality Copy](https://imgur.com/thk06Za.jpg)
 
-I also found [a video posted by `K7AGE`](https://youtu.be/yAzX4S4KEyc?t=202) of his setup receiving the same transmission. If you're curious what SSTV looks and sounds like, click the link or picture below.
+I also found [a video posted by `K7AGE`](https://youtu.be/yAzX4S4KEyc?t=202) of his setup receiving the same transmission. If you're curious what SSTV looks and sounds like, watch the video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yAzX4S4KEyc?start=202" frameborder="0" allowfullscreen></iframe>
 
