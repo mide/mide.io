@@ -12,7 +12,7 @@ A technical guide is on [my GitHub](https://github.com/mide/traffic-light-contro
 
 Before investing too much into this project, I wanted to make sure it was something that was possible. The first version of the light consisted of a handful of resistors, some LEDs and a Raspberry Pi; at this point in the project there were no relays or large lights.
 
-![Taffic Light Version 1.0](https://i.imgur.com/qmjnEAt.jpg)
+![Taffic Light Proof of Concept](https://assets.mide.io/blog/2015-04-20/traffic-proof-of-concept.jpg)
 
 Once I had [the code written](https://github.com/mide/traffic-light-controller) and I was sure this was a project that was feasible, I went ahead and bought a toy traffic light.
 
@@ -24,7 +24,7 @@ The lights in [the toy I bought](http://amzn.com/B004YE2934) would blink randoml
 
 I was able to fit the relay board and all the high voltage wires inside the toy casing. I drilled a small hole out the back for the jumper wires to get to the Raspberry Pi. There wasn't any fancy mounting done with the Raspberry Pi - it just sat next to the light, which was okay because it looked cool.
 
-![Taffic Light Version 1.0](https://i.imgur.com/0AaiyCk.jpg)
+![Taffic Light Version 1.0](https://assets.mide.io/blog/2015-04-20/traffic-version-1.jpg)
 
 With the initial vesion of the project live, jokes in the office started to rise about how much better a real traffic light would be. It was hard to debate the fact that the existing light was small and there wasn't a good spot for it anymore (we just moved offices). So The quest began for a real traffic light.
 
@@ -36,7 +36,7 @@ I was careful when picking the unit to find one that ran at 120 volts AC, so it 
 
 Wiring the full size light was no different from wiring the toy, except the full size light actually had more room inside. While the lamps were large (12" diameter), there was enough space behind them to fit the relay board, wires and whatever else I needed. I could have stuck the Raspberry Pi in there too, but I decided it was best for wifi and future maintenance to keep it accessible.
 
-![Taffic Light Version 2.0](https://i.imgur.com/BaaSthn.jpg)
+![Taffic Light Version 2.0](https://assets.mide.io/blog/2015-04-20/traffic-version-2.jpg)
 
 The light is now live in our office and shows the state of our servers, updated every minute. If one of our monitoring services reports an issue, we'll know almost immediately by the change in colors (along with a bunch of emails, of course).
 

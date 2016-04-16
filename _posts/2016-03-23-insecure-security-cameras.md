@@ -8,13 +8,13 @@ My family purchased a security camera system some time ago to add to our physica
 
 We picked up the `Swann SWDVK-830008-US TruBlue D1 3000` eight camera system.
 
-![Image of Swann DVR](https://i.imgur.com/4DMHDN0.jpg)
+![Image of Swann DVR](https://assets.mide.io/blog/2016-03-23/swann-dvr-unit.jpg)
 
 ## Problems
 
 ### Optional Password for Administration
 
-![Web login interface](https://i.imgur.com/RS75qvX.png)
+![Web login interface](https://assets.mide.io/blog/2016-03-23/swann-web-login.png)
 
 One of the first things I noticed, was that while the web client had a password field, it was completely optional. You read that correctly - the application will authenticate you regardless of the password you enter. I have no idea how this slipped past [QA](https://en.wikipedia.org/wiki/Quality_assurance), but that's in the past now. It's also worth mentioning that this interface isn't just for viewing. You can perform all sorts of administrative tasks remotely - like turning off camera feeds or deleting recorded footage.
 
@@ -28,7 +28,7 @@ I eventually wanted to have a couple [RaspberryPi](https://www.raspberrypi.org/)
 
 ### Remote Viewer Consumes Massive Resources
 
-![Task manager](https://i.imgur.com/c2AukUd.png)
+![Task manager](https://assets.mide.io/blog/2016-03-23/swann-task-manager.png)
 
 As if the previous points weren't enough of a letdown, whenever you run the Windows client, 100% of your CPU gets consumed by the application. My best guess is that the company either bundled an old codec or rolled their own.
 
@@ -39,7 +39,7 @@ I have a fairly beefy computer, and I couldn't do anything while the client was 
 
 ### Newer / Different DVR Unit
 
-![Hikvision DVR](https://i.imgur.com/dZYyGsP.jpg)
+![Hikvision DVR](https://assets.mide.io/blog/2016-03-23/hikvision-dvr-unit.jpg)
 
 I searched to see if there was a better DVR unit available. I found the `Hikvision DS-7208HVI-SV` that advertised support for Mozilla Firefox - which led me to believe it used either a Flash or HTML5 video player that could be cross platform. In an instant, we bought the vague promise of multi-browser support.
 
@@ -59,7 +59,7 @@ Even if I wrote a new client, it would only fix the cross platform and performan
 
 ### VNC Over SSH
 
-![VNC Screenshot](https://i.imgur.com/02syFjR.png)
+![VNC Screenshot](https://assets.mide.io/blog/2016-03-23/vnc-screenshot.png)
 
 I ended up using a commodity computer I had around as a VNC server running the Windows native client 24/7. I am able to connect with almost any device over an open protocol.
 
