@@ -12,8 +12,8 @@ The transmissions were sent from `RS0ISS`, the Russian call sign on the space st
 
 I used the following hardware to listen to the space station from my back yard.
 
-- Baofung UV-5R ([$30 on Amazon](http://amzn.com/B007H4VT7A))
-- A SMA Female to UFH Adapter ([$3 on Amazon](http://amzn.com/B00ATEDHXE))
+- Baofung UV-5R ([$30 on Amazon](https://amzn.com/B007H4VT7A))
+- A SMA Female to UFH Adapter ([$3 on Amazon](https://amzn.com/B00ATEDHXE))
 - Android phone for decoding (other software would have worked, too)
 - Homemade Two Meter Yagi (See below for parts list)
 - Coax
@@ -51,7 +51,7 @@ Seeing as this was my first time listening for the space station, I was very exc
 
 You can see how the image became more distorted as the ISS was going out of range. Unfortunately, my timing cut off the first bit of the image, but I was able to copy most of it. Even with all the noise, it was a great success!
 
-For reference and comparison, this is a much cleaner reception of the same image (possibly a different transmission). The [other images from this set](http://ariss-sstv.blogspot.com/2015/04/series-3-images.html) are all online.
+For reference and comparison, this is a much cleaner reception of the same image (possibly a different transmission). The [other images from this set](https://ariss-sstv.blogspot.com/2015/04/series-3-images.html) are all online.
 
 ![High Quality Copy](https://assets.mide.io/blog/2015-04-12/capture-clean.jpg)
 
@@ -61,4 +61,4 @@ I also found [a video posted by `K7AGE`](https://youtu.be/yAzX4S4KEyc?t=202) of 
 
 I had a lot of fun doing this project; it was my first home-made antenna and I heard the space station on it. That's enough of an accomplishment that I'm okay that the picture is grainy and incomplete. I hope to get back out there and maybe one day talk back to the ISS!
 
-You can follow the discussions at [/r/amateurradio](http://redd.it/37zrju), [/r/space](http://redd.it/37zsx9), and on [Hacker News](https://news.ycombinator.com/item?id=9887706).
+You can follow the discussions at [/r/amateurradio](https://redd.it/37zrju), [/r/space](https://redd.it/37zsx9), and on [Hacker News](https://news.ycombinator.com/item?id=9887706).

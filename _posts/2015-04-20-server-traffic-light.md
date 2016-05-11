@@ -18,9 +18,9 @@ Once I had [the code written](https://github.com/mide/traffic-light-controller) 
 
 ## Version 1.0
 
-Since the goal of the project wasn't to have a couple LEDs sitting on my desk, I bought a toy traffic light and a relay board. Thankfully, [the board I picked up](http://amzn.com/B0057OC5O8) had transistors built in to allow the Raspberry Pi's 3.3 volt GPIO pins to trigger the relays.
+Since the goal of the project wasn't to have a couple LEDs sitting on my desk, I bought a toy traffic light and a relay board. Thankfully, [the board I picked up](https://amzn.com/B0057OC5O8) had transistors built in to allow the Raspberry Pi's 3.3 volt GPIO pins to trigger the relays.
 
-The lights in [the toy I bought](http://amzn.com/B004YE2934) would blink randomly, so I figured I'd just cut out their logic board and put in my own. To my surprise, there was no logic board - the light sockets were fitted with [blinking C7 lights](https://duckduckgo.com/?q=+C7+Light+Bulb&iax=1&ia=images). Easily enough, switching the light bulbs provided the "always on" logic I needed.
+The lights in [the toy I bought](https://amzn.com/B004YE2934) would blink randomly, so I figured I'd just cut out their logic board and put in my own. To my surprise, there was no logic board - the light sockets were fitted with [blinking C7 lights](https://duckduckgo.com/?q=+C7+Light+Bulb&iax=1&ia=images). Easily enough, switching the light bulbs provided the "always on" logic I needed.
 
 I was able to fit the relay board and all the high voltage wires inside the toy casing. I drilled a small hole out the back for the jumper wires to get to the Raspberry Pi. There wasn't any fancy mounting done with the Raspberry Pi - it just sat next to the light, which was okay because it looked cool.
 

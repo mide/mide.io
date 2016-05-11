@@ -12,7 +12,7 @@ I'm the Monday night net control for *George's Old Timer's Net*, a ham radio net
 
 A ham radio net is nothing more than the chat room of the airwaves, but because of the nature of transmissions, only one person can talk at a time. People who are in the position of *Net Control* dictate whose turn it is to speak. This reduces the chances of multiple people talking simultaneously and preventing either of their transmissions from being heard.
 
-There are two kinds of nets, formal and informal. Formal nets, like [CM2M](http://www.cm2m.net/) of the [NTS](http://www.arrl.org/nts), meet with the purpose of discussing their matters in a formal matter. For example, traffic nets will handle formal written traffic, [ARES](http://www.arrl.org/ares) and [RACES](http://www.qsl.net/races/) nets practice for emergency communications. It is rare to hear someone talking about their day during a formal net, as that sort of content is best suited outside the net.
+There are two kinds of nets, formal and informal. Formal nets, like [CM2M](https://www.cm2m.net/) of the [NTS](https://www.arrl.org/nts), meet with the purpose of discussing their matters in a formal matter. For example, traffic nets will handle formal written traffic, [ARES](https://www.arrl.org/ares) and [RACES](http://www.qsl.net/races/) nets practice for emergency communications. It is rare to hear someone talking about their day during a formal net, as that sort of content is best suited outside the net.
 
 Informal nets, like George's Old Timer's Net, operate with a little more flexibility. In GOTN, we have a topic of the day and some fun trivia. It offers local operators an opportunity to share their daily stories with everyone and have a little fun. Some informal nets might offer help to new hams, where local operators can contribute.
 
@@ -28,7 +28,7 @@ We try to have topic questions and fun trivia each night. Since it's often the s
 
 If this is your first time running a net, you'll need permission first. If there is a well-established net that you'd like to run, chat with the other net controls; they'll be able to get you in the right direction. If you're looking to start a new net, check with the repeater's trustee, which can be found in the [FCC database](http://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp).
 
-I became a net control after chatting with Bob, [`KB1VUA`](http://qrz.com/db/KB1VUA). He agreed to let me take Monday nights from him to both help lighten his load and to give me the experience. It was a win-win for all those involved.
+I became a net control after chatting with Bob, [`KB1VUA`](https://qrz.com/db/KB1VUA). He agreed to let me take Monday nights from him to both help lighten his load and to give me the experience. It was a win-win for all those involved.
 
 The equipment to run a net is pretty basic. You'll need something to take notes; I use pen and paper, but if you like to do it on the computer, you can. Of course you'll also need a functioning radio. You'll want to make sure you have enough signal to hit the repeater without issue before running the net. If you're very far away, and only on a HT, you may have some issues.
 
@@ -41,7 +41,7 @@ To listen to what a net sounds like, this is a recording of [George's Old Timer'
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/229518846%3Fsecret_token%3Ds-NW6ho&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-We heard from the following stations during the net: [`W1IDE`](http://qrz.com/db/w1ide), [`KB1VXY`](http://qrz.com/db/kb1vxy), [`W1LEB`](http://qrz.com/db/w1leb), [`W1OCJ`](http://qrz.com/db/w1ocj), [`WA1GVM`](http://qrz.com/db/wa1gvm), [`NG1I`](http://qrz.com/db/ng1i), [`K1QJM`](http://qrz.com/db/k1qjm), `REDACTED`, [`KC1CAR`](http://qrz.com/db/kc1car), [`WI1Y`](http://qrz.com/db/wi1y), [`K1RAU`](http://qrz.com/db/k1rau), [`KC1DWX`](http://qrz.com/db/kc1dwx), [`WA1MDD`](http://qrz.com/db/wa1mdd), [`N1RWW`](http://qrz.com/db/n1rww), and [`N1TZM`](http://qrz.com/db/n1tzm).
+We heard from the following stations during the net: [`W1IDE`](https://qrz.com/db/w1ide), [`KB1VXY`](https://qrz.com/db/kb1vxy), [`W1LEB`](https://qrz.com/db/w1leb), [`W1OCJ`](https://qrz.com/db/w1ocj), [`WA1GVM`](https://qrz.com/db/wa1gvm), [`NG1I`](https://qrz.com/db/ng1i), [`K1QJM`](https://qrz.com/db/k1qjm), `REDACTED`, [`KC1CAR`](https://qrz.com/db/kc1car), [`WI1Y`](https://qrz.com/db/wi1y), [`K1RAU`](https://qrz.com/db/k1rau), [`KC1DWX`](https://qrz.com/db/kc1dwx), [`WA1MDD`](https://qrz.com/db/wa1mdd), [`N1RWW`](https://qrz.com/db/n1rww), and [`N1TZM`](https://qrz.com/db/n1tzm).
 
 ### Callup Procedure
 
