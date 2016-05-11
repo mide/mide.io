@@ -37,6 +37,11 @@ pass_count = 0
 fail_count = 0
 for file in all_files_in_dir('.'):
   print("Checking {} for link rot...".format(file))
+
+  if file.startswith("./.git/") or file.startswith("./.sass-cache"):
+    print("  [SKIP]")
+    continue
+
   content = open(file, 'r').read()
   links = links_from_string(content)
 
