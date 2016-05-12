@@ -71,7 +71,7 @@ If you're running an established net, this will probably be in your script.
 
 Emergency traffic always has priority; if you quick key (transmit quickly without leaving a break for the next person), you may not hear stations calling. And it may not even be an emergency, it could just be a comment or a station who has a question. Always be sure to leave enough of a gap for someone trying to break in.
 
-Also, it's worth noting that some radios require the carrier signal to completely drop before transmitting. Especially during the call-ups you should let the repeater completely drop it's signal before keying so that people running said equipment can be heard.
+Also, it's worth noting that some radios require the carrier signal to completely drop before transmitting. Especially during the call-ups you should let the repeater completely drop its signal before keying so that people running said equipment can be heard.
 
 ### Fighting QRM
 
