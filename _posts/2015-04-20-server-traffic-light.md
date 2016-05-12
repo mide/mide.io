@@ -30,7 +30,7 @@ With the initial vesion of the project live, jokes in the office started to rise
 
 ## Version 2.0
 
-I found a [seller on eBay](Traffic Light !ebay) that had some retired traffic lights, so I grabbed one that seemed to be in reasonable condition. It was advertised that it came with the controller circuit, but that didn't really matter since I was going to gut it and put in my own logic.
+I found a [seller on eBay](https://duckduckgo.com/?q=LED+Traffic+Light+eb!) that had some retired traffic lights, so I grabbed one that seemed to be in reasonable condition. It was advertised that it came with the controller circuit, but that didn't really matter since I was going to gut it and put in my own logic.
 
 I was careful when picking the unit to find one that ran at 120 volts AC, so it could be run off regular household voltage. The unit I found also had LED lamps, so I'm not concerned about it being on all the time.
 
