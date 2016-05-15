@@ -10,7 +10,7 @@ Privacy is a very hot topic right now with advertisers trying to deliver relevan
 
 While I could go down a [deep rabbit hole](https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland) of government spying concerns, I'm going to keep this focused on businesses and advertisers whose business model depends on your information. For more information on what I mean, check out the Interactive [Do Not Track Documentary](https://donottrack-doc.com/), an awesome project showing how your data makes people money.
 
-If you feel that if you have nothing to hide and this doesn't impact you, please [email me](https://www.mide.io/contact) with your bank accounts and complete internet browser history. It's never been about having something that needs to be hidden, it's the fact that it's none of my business which websites you browsed on Friday evening or how you spent your last paycheck.
+If you feel that you have nothing to hide and this doesn't impact you, please [email me](https://www.mide.io/contact) with your bank accounts and complete internet browser history. It's never been about having something that needs to be hidden, it's the fact that it's none of my business which websites you browsed on Friday evening or how you spent your last paycheck.
 
 ## Steps I've Taken
 
@@ -44,9 +44,9 @@ All my assets have been moved to `assets.mide.io`, another domain under my contr
 
 ### Embedded Content Removed
 
-I previously embedded YouTube videos and SoundCloud sound clips into my blog entries to make things easier and more active for my viewers. But I realized just how many assets each of these additions were pulling in.
+I previously embedded YouTube videos and SoundCloud sound clips into my blog entries to make things easier and more active for my viewers. However, I realized just how many assets each of these additions were pulling in.
 
-Even if the embedded content didn't set any cookies or run any scripts, it still performed a request to fetch the content from a different source than my website. I want my visitors to know explicitly when they're viewing content from a site other than my own, and I have achieved that by requiring a click of a link.
+If the embedded content didn't set any cookies or run any scripts, it still performed a request to fetch the content from a different source. I want my visitors to know explicitly when they're viewing content from a site other than my own, and I have achieved that by requiring a click of a link.
 
 ## Tin Foil Hat Considerations
 
@@ -60,7 +60,7 @@ If this is a concern of yours, always make sure you type in `https://` for the w
 
 ### Lack of Control over TLS Certificate and Key
 
-I do not have control over the TLS private key, it's stored within Amazon's services. Because Amazon is the entity performing the decryption and the serving of content, they could be logging and gathering metrics on requests. In fact, CloudFront does collect some information from visitors, as can be seen from their [Viewers Report](https://aws.amazon.com/cloudfront/reporting/).
+I do not have control over the TLS private key, it's stored within Amazon's services.  Amazon is the entity performing the decryption and the serving of content, they could be logging and gathering metrics on requests. In fact, CloudFront does collect some information from visitors, as can be seen from their [Viewers Report](https://aws.amazon.com/cloudfront/reporting/).
 
 In an ideal situation, I'd be the only one with access to the [private key](https://en.wikipedia.org/wiki/Public-key_cryptography) and the server would be physically and digitally under my control. But this isn't cost effective for me, so this is a compromise that I have to make for now.
 
