@@ -60,7 +60,7 @@ If this is a concern of yours, always make sure you type in `https://` for the w
 
 ### Lack of Control over TLS Certificate and Key
 
-I do not have control over the TLS private key, it's stored within Amazon's services.  Amazon is the entity performing the decryption and the serving of content, they could be logging and gathering metrics on requests. In fact, CloudFront does collect some information from visitors, as can be seen from their [Viewers Report](https://aws.amazon.com/cloudfront/reporting/).
+I do not have control over the TLS private key, it's stored within Amazon's services. Amazon is the entity performing the decryption and the serving of content, they could be logging and gathering metrics on requests. In fact, CloudFront does collect some information from visitors, as can be seen from their [Viewers Report](https://aws.amazon.com/cloudfront/reporting/).
 
 In an ideal situation, I'd be the only one with access to the [private key](https://en.wikipedia.org/wiki/Public-key_cryptography) and the server would be physically and digitally under my control. But this isn't cost effective for me, so this is a compromise that I have to make for now.
 
