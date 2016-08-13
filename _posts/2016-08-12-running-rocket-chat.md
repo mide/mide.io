@@ -168,6 +168,12 @@ One nice feature of hosting the service on your own hardware is that you have co
 
 You can run your own [HipChat Server](https://www.hipchat.com/server) which grants you the ability to have better control over your data, but you still need to pay steep licensing fees ($1,800 for 25 users for one year).
 
+## My Family's Utilization
+
+To give you an idea of the use, here is a graph showing the number of messages sent since we set up the server. We love using Rocket.Chat and we think you will too!
+
+[![Graph showing our utilization](https://assets.mide.io/blog/2016-08-12/messages-sent-over-time.png)](https://assets.mide.io/blog/2016-08-12/messages-sent-over-time.png)
+
 ## Thank You!
 I'd like to extend my deep gratitude to the [Rocket.Chat development team](https://rocket.chat/team) for working on what I believe to be one of the best open source projects.
 
