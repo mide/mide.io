@@ -10,18 +10,18 @@ date:   2016-08-12 19:30:00
 
 [Rocket.Chat](https://rocket.chat) is an open source chat platform that is awesome for teams and families.
 
-My family uses it as a extension to SMS and email; we find it easier and faster to communicate with each other than traditional means. It adds nice [emoji](http://emojione.com/), can be used on [multiple devices](https://rocket.chat/download) (laptop, phone, tablet, etc), and it's much cheaper than the nearest competitors.
+My family uses it as an extension to SMS and email; we find it easier and faster to communicate with each other. It adds some great [emoji](http://emojione.com/), can be used on [multiple devices](https://rocket.chat/download) (laptop, phone, tablet, etc), and it's much cheaper than the nearest competitors.
 
 ## Running Rocket.Chat
 
-Because Rocket.Chat is not a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) solution, you'll need to run your own server (or pay someone to run one for you). I have found the easiest way is to run Rocket.Chat is with [Docker](https://www.docker.com/). Docker Hub even has an [official Rocket.Chat image](https://hub.docker.com/_/rocket.chat/), so you can download stable versions there.
+Rocket.Chat is not a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) solution, therefore you'll need to run your own server (or pay someone to run one for you). I have found the easiest way is to run Rocket.Chat is with [Docker](https://www.docker.com/). Docker Hub even has an [official Rocket.Chat image](https://hub.docker.com/_/rocket.chat/), so you can download stable versions there.
 
-The following steps get you rolling to try out the system. If you're considering running this in a production environment, I suggest running your [infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) and using something like [Ansible](https://www.ansible.com/) or [AWS ECS](https://aws.amazon.com/ecs/) depending on your existing infrastructure.
+The following steps will get you started on trying out the system. If you're considering running this in a production environment, I suggest running your [infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) and using something like [Ansible](https://www.ansible.com/) or [AWS ECS](https://aws.amazon.com/ecs/) depending on your existing infrastructure.
 
 If you're looking to just quickly play with Rocket.Chat, check out [their GitHub page](https://github.com/RocketChat/Rocket.Chat) were you can spin up servers on a variety of providers.
 
 ### MongoDB
-Rocket.Chat stores its data in [MongoDB](https://www.mongodb.com/) so you'll need to start that up first. I suggest [mounting a volume](https://docs.docker.com/engine/tutorials/dockervolumes/) in order get your data to persist. If you don't do this, your data will be wiped out if you ever stop the container (restart the host, perform an upgrade, etc).
+Rocket.Chat stores data in [MongoDB](https://www.mongodb.com/) so you'll need to start that up first. I suggest [mounting a volume](https://docs.docker.com/engine/tutorials/dockervolumes/) in order to get your data to persist. Otherwise, your data will be wiped out if you ever stop the container (restart the host, perform an upgrade, etc).
 
 ```
 # Make the volume directory (to have data persist)
@@ -43,7 +43,7 @@ You can now start up the Rocket.Chat container. The container will need to be li
 
 ```
 # Start the Rocket.Chat container
-docker run  \
+docker run \
   --detach \
   --name rocketchat \
   --restart always \
@@ -87,7 +87,7 @@ tar czf "$BACKUP_FILE_FULL" "$DUMP_LOCATION"
 rm -rf "$DUMP_LOCATION"
 ```
 
-If you run this script via a `cron` job, you'll have yourself a completely automated backup. It goes without saying, but it's wise to test your restore procedure to validate you're doing backups properly.
+If you run this script via a `cron` job, you'll have a completely automated backup. It goes without saying, but it's wise to test your restore procedure to validate you're doing backups properly.
 
 Of course, you can add a [dead man's switch](https://en.wikipedia.org/wiki/Dead_man%27s_switch) to alert you of when your script fails to run. I personally use [healthchecks.io](https://healthchecks.io), but there are plenty of good options out there.
 
@@ -95,11 +95,11 @@ I have a few extra lines in my script that upload `$BACKUP_FILE_FULL` to an [AWS
 
 ## TLS Certificate / Encryption
 
-[TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) is incredibly important to protect the privacy of users; it encrypts traffic from the client to the server. I use the [Let's Encrypt](https://letsencrypt.org/) project to acquire a valid domain validation TLS certificate for free.
+[TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) is incredibly important to protect the privacy of users; it encrypts traffic from the client to the server. I use the [Let's Encrypt](https://letsencrypt.org/) project to acquire a domain validation TLS certificate for free.
 
 I opted to use nginx's [reverse proxy](https://www.nginx.com/resources/admin-guide/reverse-proxy/) capabilities to serve my web requests for me. This also allows me to have nginx terminate my TLS connections since Rocket.Chat doesn't support TLS natively.
 
-There are plenty of guides on how to acquire TLS certificates and use Nginx, and as this isn't Rocket.Chat specific, I'll leave this piece out of this post.
+There are plenty of guides on how to acquire TLS certificates and use Nginx, as this isn't Rocket.Chat specific, I'll leave this piece out of this post.
 
 ## Integrations
 
@@ -125,7 +125,7 @@ I've made the descision to make our robot friend stateless, so I don't have to w
 
 ```
 # Start the Chat Bot container
-docker run  \
+docker run \
   --detach \
   --name davidswinton \
   --restart always \
@@ -150,13 +150,13 @@ docker run  \
 The closest hosted competitors to Rocket.Chat are Slack and HipChat.
 
 ### Pricing / License
-I estimate you can run a Rocket.Chat server (Mongo, Rocket.Chat, Backups, and a chat bot) on an [AWS `t2.micro` instance](https://aws.amazon.com/ec2/instance-types/), which will cost you approximately $10 a month. These calculations are based off that assumption, so keep that in mind.
+I estimate a Rocket.Chat server can be run (Mongo, Rocket.Chat, Backups, and a chat bot) on an [AWS `t2.micro` instance](https://aws.amazon.com/ec2/instance-types/), and cost approximately $10 a month. These calculations are based off estimates, so keep that in mind.
 
-Without much surprise, Slack is the most expensive alternative. Seeing that my Rocket.Chat server currently has almost 15 users, we'd be looking at a bill of $100 per month! HipChat is better, but we'd still be facing $30 per month.
+Without much surprise, Slack is the most expensive alternative. Seeing that my Rocket.Chat server currently has almost 15 users, we'd be looking at a bill of $100 per month! HipChat is better, but we'd still be facing $30 per month. The figure below shows the monthly cost of Rocket.Chat and two competitors as a function of users.
 
 [![Graph showing cost per month](https://assets.mide.io/blog/2016-08-12/cost-per-month.png)](https://assets.mide.io/blog/2016-08-12/cost-per-month.png)
 
-I really wanted a good picture of when a $10/month AWS instance would pay for itself. Come to find out, it's much sooner than I expected. At just five people, it is cheaper than the two major alternatives.
+I really wanted a good picture of when a $10/month AWS instance would pay for itself. Come to find out, it's much sooner than I expected. At just five people, it is cheaper per month, than the two major competitors. This was not easily seen via the figure above. The figure below, however depicts this very clearly.
 
 [![Graph showing cost per user](https://assets.mide.io/blog/2016-08-12/cost-per-user.png)](https://assets.mide.io/blog/2016-08-12/cost-per-user.png)
 
@@ -164,7 +164,7 @@ There is a hidden cost of maintenance; I haven't spent a lot of time maintaining
 
 ### Self-Hosting
 
-One nice feature of hosting the service on your own hardware is that you have complete control over the data. You can define exactly how you want people to access your system.
+One nice feature of hosting the service on your own hardware, is that you have complete control over the data. You can define exactly how you want people to access your system.
 
 You can run your own [HipChat Server](https://www.hipchat.com/server) which grants you the ability to have better control over your data, but you still need to pay steep licensing fees ($1,800 for 25 users for one year).
 
