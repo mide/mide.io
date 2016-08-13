@@ -21,7 +21,7 @@ def all_files_in_dir(directory):
 
 # Returns a set of all links from a given string. Links can not include ')' or '"'.
 def links_from_string(string):
-  return set(re.findall(r'(https?://[^\)\"\'\s]+)', string))
+  return set(re.findall(r'(https?://[^\)\"\`\'\s]+)', string))
 
 # Returns true if a given link is reachable, false otherwise.
 def link_is_healthy(link):
