@@ -72,3 +72,7 @@ My computer is no longer impacted by the poor performance of the client. I know 
 The current state of consumer level security camera systems is pretty sad. I was really hoping for some open standards that I could use to my benefit, like custom clients or reports. It's been some time since my initial search, but I'd give more attention to [IP cameras](https://en.wikipedia.org/wiki/IP_camera) on a second pass.
 
 If you're looking to get a camera system, keep in mind the limitations you may hit. And definitely disable [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play#NAT_traversal)!
+
+**Update 10/23/16:**
+
+It appears that the security flaws in DVR systems similar to ours has been used to form a botnet and [attack Dyn](https://dyn.com/blog/dyn-statement-on-10212016-ddos-attack/), a massive DNS provider. This attack was of record size and brought down a good portion of the internet for hours. [Brian Krebs writes about this on his blog](https://krebsonsecurity.com/2016/10/hacked-cameras-dvrs-powered-todays-massive-internet-outage/); if you're interested in security he's a great resource. In order to prevent more of these attacks, the world needs to take security seriously, especially with [IoT](https://en.wikipedia.org/wiki/Internet_of_things) equipment.
