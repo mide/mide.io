@@ -73,6 +73,24 @@ The current state of consumer level security camera systems is pretty sad. I was
 
 If you're looking to get a camera system, keep in mind the limitations you may hit. And definitely disable [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play#NAT_traversal)!
 
-**Update 10/23/16:**
+## Updates
 
-It appears that the security flaws in DVR systems similar to ours has been used to form a botnet and [attack Dyn](https://dyn.com/blog/dyn-statement-on-10212016-ddos-attack/), a massive DNS provider. This attack was of record size and brought down a good portion of the internet for hours. [Brian Krebs writes about this on his blog](https://krebsonsecurity.com/2016/10/hacked-cameras-dvrs-powered-todays-massive-internet-outage/); if you're interested in security he's a great resource. In order to prevent more of these attacks, the world needs to take security seriously, especially with [IoT](https://en.wikipedia.org/wiki/Internet_of_things) equipment.
+### DNS DDoS Attack (10/21/2016)
+
+On October 21, 2016 there was an extremely large [DDoS attack against Dyn](https://en.wikipedia.org/wiki/2016_Dyn_cyberattack), a large DNS provider, that caused a fair portion of the internet to become unreachable. You can read [Dyn's official statement here](https://www.dynstatus.com/incidents/5r9mppc1kb77). The initial understanding was that compromised [IoT](https://en.wikipedia.org/wiki/Internet_of_things) equipment was the root cause of the attack. Specifically, it appears that [insecure camera DVRs are to blame](https://krebsonsecurity.com/2016/10/hacked-cameras-dvrs-powered-todays-massive-internet-outage/).
+
+[![Outage Map from Down Detector](https://assets.mide.io/blog/2016-03-23/level-3-outage-map.png)](https://en.wikipedia.org/wiki/2016_Dyn_cyberattack)
+
+### Our Immediate Actions
+
+Because of the nature of the attack (compromised devices inside the network), I immediately disconnected the physical ethernet from the device. Because of personal time constraints, we had to run approximately a week without remote access to the cameras. The DVR remained on and recorded, we just couldn't view it from our devices.
+
+### Our Longterm Solution
+
+I was hoping that the home router (this is at a family member's house) would have the ability to firewall off certain devices from the internet. They have a stock [Verizon FiOS](https://en.wikipedia.org/wiki/Verizon_Fios) router, which thankfully has the ability to block access to the internet for selective devices. After some testing, I confirmed the options did what we needed.
+
+[![Router Interface Screenshot](https://assets.mide.io/blog/2016-03-23/fios-firewall-screenshot.png)](https://assets.mide.io/blog/2016-03-23/fios-firewall-screenshot.png)
+
+We blocked all internet access to/from the DVR and to/from the VNC server. That only allows connections from or through devices inside the network, like our SSH server. All of our functionality has been restored and at zero additional cost. In hindsight, I should have turned on these options sooner.
+
+
