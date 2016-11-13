@@ -1,0 +1,7 @@
+s3_id: REDACTED
+s3_secret: REDACTED
+s3_bucket: mide.io
+
+exclude_from_upload:
+  - Makefile
+  - check_for_link_rot.py
