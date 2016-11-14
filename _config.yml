@@ -6,3 +6,4 @@ markdown: redcarpet
 
 gems:
   - jekyll-feed
+  - jekyll-toc
