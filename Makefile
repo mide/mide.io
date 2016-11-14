@@ -1,13 +1,11 @@
-update: clean check_for_link_rot build upload
-
 build:
 	bundle exec jekyll build
 
-upload:
-	bundle exec s3_website push
-
 serve:
 	bundle exec jekyll serve
+
+upload: build
+	bundle exec s3_website push
 
 check_for_link_rot:
 	python3 check_for_link_rot.py
