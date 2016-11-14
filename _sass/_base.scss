@@ -128,12 +128,12 @@ footer{
     font-style: italic;
   }
 
+  details#table-of-contents{
+    display: inline;
+  }
+
   ul.section-nav {
-    background-color: #FFF;
-    margin: 5px 0;
-    padding: 10px;
-    border: 1px solid #E8E8E8;
-    border-radius: 3px;
+    padding: 0px;
     list-style-position: inside;
     list-style-type: none;
     // H1 is used only for page titles, so we start at H2.
