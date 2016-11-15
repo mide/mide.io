@@ -9,8 +9,8 @@ exclude:
   - Gemfile
   - Gemfile.lck
   - Makefile
-  - s3_website.yml
   - README.md
+  - s3_website.yml
 
 gems:
   - jekyll-feed
