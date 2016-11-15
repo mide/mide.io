@@ -4,6 +4,14 @@ email: hello@cranstonide.com
 url: https://www.mide.io
 markdown: redcarpet
 
+exclude:
+  - check_for_link_rot.py
+  - Gemfile
+  - Gemfile.lck
+  - Makefile
+  - s3_website.yml
+  - README.md
+
 gems:
   - jekyll-feed
   - jekyll-toc
