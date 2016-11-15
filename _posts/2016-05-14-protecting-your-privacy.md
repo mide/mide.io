@@ -2,7 +2,6 @@
 layout: post
 title:  "Protecting Your Privacy"
 date:   2016-05-14 11:30:00
-toc:    true
 ---
 
 ## Why Privacy is Important

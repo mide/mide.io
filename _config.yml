@@ -15,3 +15,11 @@ exclude:
 gems:
   - jekyll-feed
   - jekyll-toc
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      toc: true
