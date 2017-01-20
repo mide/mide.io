@@ -3,13 +3,13 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    aws-sdk (2.6.44)
-      aws-sdk-resources (= 2.6.44)
-    aws-sdk-core (2.6.44)
+    aws-sdk (2.6.49)
+      aws-sdk-resources (= 2.6.49)
+    aws-sdk-core (2.6.49)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.6.44)
-      aws-sdk-core (= 2.6.44)
+    aws-sdk-resources (2.6.49)
+      aws-sdk-core (= 2.6.49)
     aws-sigv4 (1.0.0)
     colorator (1.1.0)
     colored (1.2)
@@ -18,7 +18,7 @@ GEM
       deep_merge (~> 1.0.0)
     deep_merge (1.0.1)
     dotenv (1.0.2)
-    ffi (1.9.14)
+    ffi (1.9.17)
     forwardable-extended (2.6.0)
     jekyll (3.3.1)
       addressable (~> 2.4)
@@ -80,4 +80,4 @@ DEPENDENCIES
   s3_website!
 
 BUNDLED WITH
-   1.13.6
+   1.13.7
