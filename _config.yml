@@ -5,10 +5,9 @@ url: https://www.mide.io
 markdown: redcarpet
 
 exclude:
-  - check_for_link_rot.py
   - Gemfile
   - Gemfile.lck
-  - Makefile
+  - Rakefile
   - README.md
   - s3_website.yml
 
