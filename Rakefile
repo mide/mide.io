@@ -14,6 +14,7 @@ task :serve do
 end
 
 task :test => [:build] do
-  opts = {disable_external: true}
+  # Use html-proofer https://github.com/gjtorikian/html-proofer
+  opts = {disable_external: true, check_html: true, check_img_http: true}
   HTMLProofer.check_directory('./_site', opts).run
 end
