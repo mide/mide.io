@@ -1,4 +1,5 @@
 require 'jekyll'
+require 'html-proofer'
 
 task :build do
   Jekyll::Commands::Build.process({profile: true})
@@ -13,5 +14,6 @@ task :serve do
 end
 
 task :test => [:build] do
-  # TBD
+  opts = {disable_external: true}
+  HTMLProofer.check_directory('./_site', opts).run
 end
