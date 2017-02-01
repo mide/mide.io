@@ -10,6 +10,7 @@ exclude:
   - Rakefile
   - README.md
   - s3_website.yml
+  - vendor # Travis CI
 
 gems:
   - jekyll-feed
@@ -23,6 +24,3 @@ defaults:
       type: "posts"
     values:
       toc: true
-
-# TavisCI bundles it's gems inside "./vendor", so we exclude that.
-exclude: [vendor]
