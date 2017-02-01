@@ -23,3 +23,7 @@ task :test => [:build] do
     http_status_ignore: [999]}
   HTMLProofer.check_directory('./_site', opts).run
 end
+
+task :publish => [:test] do
+  sh "bundle exec s3_website push"
+end
