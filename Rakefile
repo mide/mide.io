@@ -16,7 +16,6 @@ end
 task :test => [:build] do
   # Use html-proofer https://github.com/gjtorikian/html-proofer
   opts = {
-    disable_external: true,
     check_html: true,
     check_img_http: true,
     url_ignore: [/https?:\/\/localhost\/?.*/],
