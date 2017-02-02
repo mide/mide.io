@@ -19,7 +19,7 @@ task :test => [:build] do
     disable_external: true,
     check_html: true,
     check_img_http: true,
-    url_ignore: [/https?:\/\/localhost\/?/],
+    url_ignore: [/https?:\/\/localhost\/?.*/],
     http_status_ignore: [999]}
   HTMLProofer.check_directory('./_site', opts).run
 end
