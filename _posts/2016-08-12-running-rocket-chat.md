@@ -23,7 +23,7 @@ If you're looking to just quickly play with Rocket.Chat, check out [their GitHub
 ### MongoDB
 Rocket.Chat stores data in [MongoDB](https://www.mongodb.com/) so you'll need to start that up first. I suggest [mounting a volume](https://docs.docker.com/engine/tutorials/dockervolumes/) in order to get your data to persist. Otherwise, your data will be wiped out if you ever stop the container (restart the host, perform an upgrade, etc).
 
-```
+```bash
 # Make the volume directory (to have data persist)
 mkdir -P /var/rocketchat/mongo
 
@@ -41,7 +41,7 @@ docker run \
 ### Rocket.Chat
 You can now start up the Rocket.Chat container. The container will need to be linked to the MongoDB container since the MondoBD container doesn't expose any ports.
 
-```
+```bash
 # Start the Rocket.Chat container
 docker run \
   --detach \
@@ -63,7 +63,7 @@ This will expose Rocket.Chat on [`http://localhost/`](http://localhost) on the h
 
 In order to backup Rocket.Chat, you'll need to perform a [MongoDB dump](https://docs.mongodb.com/manual/reference/program/mongodump/). I have found that the easiest thing is to just use Docker since I don't have Mongo installed on the host.
 
-```
+```bash
 # Establish some variables to make the backup more clear
 TIMESTAMP=$(date '+%Y%m%d')
 BACKUP_DIR="/var/rocketchat/backup/"
@@ -109,7 +109,7 @@ The [Rocket.Chat API](https://rocket.chat/docs/developer-guides/rest-api/) is de
 
 I personally use the API to [send notifications](https://api.slack.com/incoming-webhooks) of infrastructure events into a special channel.
 
-```
+```bash
 # Send message into Rocket.Chat #infrastructure room saying the backup is complete.
 curl -X POST --data-urlencode "payload={\"text\":\"The backup is complete.\"" https://rocketchat.example.com/hooks/room_id/rocket.cat/AUTH_TOKEN
 
@@ -123,7 +123,7 @@ I've made the descision to make our robot friend stateless, so I don't have to w
 
 [![Chat with David Swinton](https://assets.mide.io/blog/2016-08-12/david-swinton-screenshot.png)](https://assets.mide.io/blog/2016-08-12/david-swinton-screenshot.png)
 
-```
+```bash
 # Start the Chat Bot container
 docker run \
   --detach \
