@@ -83,13 +83,11 @@ If this is the first time your project will be in git, you can simply create a n
 
 [![Rocket.Chat Logo](https://assets.mide.io/blog/2017-03-04/github-new-repo.png)](https://assets.mide.io/blog/2017-03-04/github-new-repo.png)
 
-However, if your project is already in git and you're about to make it public, remember that the history will also become public. So if you've ever accidentally committed a secret, that will become public via the history. There are [guides available](https://help.github.com/articles/removing-sensitive-data-from-a-repository/) that discuss how to remove sensitive data from a repository.
+However, if your project is already in git and you're about to make it public, remember that the history will also become public. So if you've ever accidentally committed a secret, that will become public via the history. There are [guides available](https://help.github.com/articles/removing-sensitive-data-from-a-repository/) that discuss how to remove sensitive data from a repository. It's a good idea to rotate or revoke anything that was ever compromised, even if you hide it from future views.
 
 ### Add Configuration Files
 
-I have used the following `.travis.yml`. I've opted to break some of the commands into scripts for better readability. Those scripts live in the `/scripts/` directory in my project. You can read more about the `.travis.yml` file in the [Travis CI docs](https://docs.travis-ci.com/).
-
-Review the [Travis CI documentation](https://docs.travis-ci.com/) for more details on how to configure the build. There are many options (far too many to describe here) so tweak the examples to fit your needs.
+I have used the following `.travis.yml`. I've opted to break some of the commands into scripts for better readability. Those scripts live in the `/scripts/` directory in my project. You can read more about the `.travis.yml` file in the [Travis CI docs](https://docs.travis-ci.com/). There are many options (far too many to describe here) so tweak the examples to fit your needs.
 
 ```
 .travis.yml
