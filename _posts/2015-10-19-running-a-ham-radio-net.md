@@ -32,7 +32,7 @@ I became a net control after chatting with Bob, [`KB1VUA`](https://qrz.com/db/KB
 
 The equipment to run a net is pretty basic. You'll need something to take notes; I use pen and paper, but if you like to do it on the computer, you can. Of course you'll also need a functioning radio. You'll want to make sure you have enough signal to hit the repeater without issue before running the net. If you're very far away, and only on a HT, you may have some issues.
 
-If your net has a script to follow, you'll want to have that ready. I follow the [George's Old Timer's Net script](https://github.com/cmara/georges-net-script) when running the net.
+If your net has a script to follow, you'll want to have that ready. I follow the [George's Old Timer's Net script](http://cmara.org/docs/georges.pdf) when running the net.
 
 If you're planning on doing trivia or the alike, you will want to have a good list ready ahead of time - it's very hard to produce trivia on the fly while maintaining your list of check-ins.
 
