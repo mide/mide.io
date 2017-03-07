@@ -1,9 +1,7 @@
 require 'jekyll'
 require 'html-proofer'
 
-task :build do
-  Jekyll::Commands::Build.process({profile: true})
-end
+task :build => ['_site/index.html']
 
 task :clean do
   Jekyll::Commands::Clean.process({})
@@ -22,4 +20,8 @@ task :test => [:build] do
     url_ignore: [/https?:\/\/localhost\/?.*/],
     http_status_ignore: [999]}
   HTMLProofer.check_directory('./_site', opts).run
+end
+
+file '_site/index.html' do
+  Jekyll::Commands::Build.process({profile: true})
 end
