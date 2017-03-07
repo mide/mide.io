@@ -9,7 +9,6 @@ exclude:
   - Gemfile.lck
   - Rakefile
   - README.md
-  - s3_website.yml
   - vendor # Travis CI
 
 gems:
