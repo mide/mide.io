@@ -16,7 +16,10 @@ task :test => [:build] do
   opts = {
     check_html: true,
     check_img_http: true,
-    url_ignore: [/https?:\/\/localhost\/?.*/],
+    url_ignore: [
+      /https?:\/\/localhost\/?.*/,
+      /https?:\/\/(www.)?archlinux.org\/?.*/
+    ],
     http_status_ignore: [999]}
   HTMLProofer.check_directory('./_site', opts).run
 end
