@@ -35,7 +35,7 @@ As stated above, this guide assumes you'll be publishing your PDF into an AWS S3
         {
             "Effect": "Allow",
             "Action": "s3:PutObject",
-            "Resource": "arn:aws:s3:::com-cranstonide-share/sample-latex-project/my-file-1.pdf"
+            "Resource": "arn:aws:s3:::us-west-2-com-cranstonide-share/sample-latex-project/my-file-1.pdf"
         }
     ]
 }
@@ -109,7 +109,7 @@ deploy:
   provider: s3
   access_key_id: $AWS_KEY_ID # Use environment variables for security
   secret_access_key: $AWS_SECRET_KEY # Use environment variables for security
-  bucket: com-cranstonide-share # Your S3 bucket
+  bucket: us-west-2-com-cranstonide-share # Your S3 bucket
   skip_cleanup: true # Skip cleanup, or Travis will remove your .pdf files
   local_dir: output # The complete contents of this directory will be uploaded
   upload-dir: sample-latex-project # S3 bucket prefix (directory, no trailing slash)
