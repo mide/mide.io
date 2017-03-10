@@ -113,6 +113,7 @@ deploy:
   skip_cleanup: true # Skip cleanup, or Travis will remove your .pdf files
   local_dir: output # The complete contents of this directory will be uploaded
   upload-dir: sample-latex-project # S3 bucket prefix (directory, no trailing slash)
+  region: us-west-2 # S3 bucket region (I'm in us-west-2)
 ```
 
 I have the following `scripts/install.sh` defined. This file is referenced by the `install` key above.
