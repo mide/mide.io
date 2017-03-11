@@ -125,6 +125,12 @@ footer{
     box-sizing: border-box;
   }
 
+  audio{
+    width: 400px;
+    margin-left: calc((100% - 400px) / 2);
+    margin-right: calc((100% - 400px) / 2);
+  }
+
   blockquote{
     font-style: italic;
   }

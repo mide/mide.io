@@ -39,7 +39,10 @@ If you're planning on doing trivia or the alike, you will want to have a good li
 ## Running the Net
 To listen to what a net sounds like, this is a recording of George's Old Timer's Net from Monday, October 19th, 2015. Please note that some audio has been redacted by request. You may [download the audio here](https://assets.mide.io/blog/2015-10-19/ham-radio-net-recording.mp3).
 
-[![Screenshot of SoundCloud](https://assets.mide.io/blog/2015-10-19/soundcloud-screenshot.png)](https://soundcloud.com/mark-724994654)
+<audio controls>
+  <source src="https://assets.mide.io/blog/2015-10-19/ham-radio-net-recording.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 
 We heard from the following stations during the net: [`W1IDE`](https://qrz.com/db/w1ide), [`KB1VXY`](https://qrz.com/db/kb1vxy), [`W1LEB`](https://qrz.com/db/w1leb), [`W1OCJ`](https://qrz.com/db/w1ocj), [`WA1GVM`](https://qrz.com/db/wa1gvm), [`NG1I`](https://qrz.com/db/ng1i), [`K1QJM`](https://qrz.com/db/k1qjm), `REDACTED`, [`KC1CAR`](https://qrz.com/db/kc1car), [`WI1Y`](https://qrz.com/db/wi1y), [`K1RAU`](https://qrz.com/db/k1rau), [`KC1DWX`](https://qrz.com/db/kc1dwx), [`WA1MDD`](https://qrz.com/db/wa1mdd), [`N1RWW`](https://qrz.com/db/n1rww), and [`N1TZM`](https://qrz.com/db/n1tzm).
 
