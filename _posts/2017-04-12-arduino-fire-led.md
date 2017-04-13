@@ -19,7 +19,7 @@ Your browser does not support the video tag. <a href="https://assets.mide.io/blo
 
 ### Parts List
 
-- [Arduino](https://store-usa.arduino.cc/products/a000066) (Any compatible board will work, I used a [Velleman Atmega328 Uno](http://www.youdoitelectronics.com/velleman-atmega328-uno-development-board-vma100?fee=1&fep=3504))
+- [Arduino](https://store.arduino.cc/usa/arduino-uno-rev3) (Any compatible board will work, I used a [Velleman Atmega328 Uno](http://www.youdoitelectronics.com/velleman-atmega328-uno-development-board-vma100?fee=1&fep=3504))
 - 5 Volt, 2 Amp USB Battery (I used an [Anker Astro E1](https://www.amazon.com/dp/B00P7N0320/ref=cm_sw_r_cp_ep_dp_62t7yb7V5BNTZ))
 - [NeoPixel Addressable RGB LED Strip, 1 meter](https://www.adafruit.com/product/1376) (Note the three contacts, _Vin_, _Gnd_, _Din_)
 - [SPDT Switch](http://www.youdoitelectronics.com/catalog/product/view/id/925/s/philmore-mini-3-postion-toggle-spdt-30-10006/category/592/?___SID=U)
