@@ -16,6 +16,7 @@ task :test => [:build] do
   opts = {
     check_html: true,
     check_img_http: true,
+    internal_domains: ['www.mide.io'],
     url_ignore: [
       /https?:\/\/localhost\/?.*/,
       /https?:\/\/(www.)?archlinux.org\/?.*/
