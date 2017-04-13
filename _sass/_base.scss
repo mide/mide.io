@@ -118,7 +118,7 @@ footer{
     overflow-x: auto;
   }
 
-  img, iframe{
+  img, iframe, video{
     max-width: 400px;
     margin-left: calc((100% - 400px) / 2);
     margin-right: calc((100% - 400px) / 2);
@@ -158,7 +158,7 @@ footer{
 @media (min-width: 414px){
   #content{
     padding: 20px;
-    img, iframe{
+    img, iframe, video{
       padding: 5px;
       border: 2px solid #ddd;
     }
