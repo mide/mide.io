@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gustavus Ide Jr - US Navy"
-date:   2017-05-29 12:30:00
+date:   2017-05-29 07:30:00
 ---
 
 ## About
