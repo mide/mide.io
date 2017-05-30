@@ -6,7 +6,7 @@ markdown: redcarpet
 
 exclude:
   - Gemfile
-  - Gemfile.lck
+  - Gemfile.lock
   - Rakefile
   - README.md
   - vendor # Travis CI
