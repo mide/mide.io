@@ -24,7 +24,7 @@ My grandfather's time in the Navy was not his only accomplish nor was it what de
 
 ## Video Interview
 
-On October 3, 2006 my grandfather volunteered some time to contribute his story as part of the [Morse Institute Library](https://morseinstitute.org/) project on [Veterans Oral History](http://www.natickvets.org/). This project allows me, now an adult, to listen to his stories with a deeper understanding. I'm eternally grateful that the project preserved this piece of history, not only for my family, but for the world.
+On October 3, 2006 my grandfather volunteered some time to contribute his story as part of the [Morse Institute Library](https://morseinstitute.org/) project on [Veterans Oral History](http://www.natickvets.org/). This project allows me to listen to his stories with a deeper understanding. I'm eternally grateful that the project preserved this piece of history, not only for my family, but for the world.
 
 <video controls>
   <source src="https://assets.mide.io/blog/2017-05-29/ide-gustavus-live-interview.mp4" type="video/mp4">
