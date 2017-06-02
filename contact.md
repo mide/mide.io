@@ -15,3 +15,5 @@ While I'm not huge into social networks, there are a few that I maintain a prese
 - [mide](https://keybase.io/mide) on Keybase
 - [Mark Ide](https://linkedin.com/in/markide) on LinkedIn
 - [@cranstonide](https://twitter.com/cranstonide) on Twitter
+
+[![Twitter Screenshot](https://assets.mide.io/common/twitter/twitter-timeline.png)](https://www.twitter.com/cranstonide)
