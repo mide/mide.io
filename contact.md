@@ -18,4 +18,4 @@ While I'm not huge into social networks, there are a few that I maintain a prese
 
 ### Twitter Feed
 
-[![Twitter Screenshot](https://assets.mide.io/common/twitter/twitter-timeline.png)](https://www.twitter.com/cranstonide)
+[![Twitter Screenshot](https://assets.mide.io/common/twitter/twitter-timeline.png)](https://twitter.com/cranstonide)
