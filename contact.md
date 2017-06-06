@@ -18,4 +18,6 @@ While I'm not huge into social networks, there are a few that I maintain a prese
 
 ### Twitter Feed
 
+What is this? In short, it's a recent screenshot of my Twitter timeline. [Read about it here.]({% post_url 2017-06-05-twitter-embed-screenshot %})
+
 [![Twitter Screenshot](https://assets.mide.io/common/twitter/twitter-timeline.png)](https://twitter.com/cranstonide)
