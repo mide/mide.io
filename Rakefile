@@ -19,7 +19,8 @@ task :test => [:build] do
     internal_domains: ['www.mide.io'],
     url_ignore: [
       /https?:\/\/localhost\/?.*/,
-      /https?:\/\/(www.)?archlinux.org\/?.*/
+      /https?:\/\/(www.)?archlinux.org\/?.*/,
+      /https?:\/\/(www.)?damow.net\/?.*/
     ],
     http_status_ignore: [999]}
   HTMLProofer.check_directory('./_site', opts).run
