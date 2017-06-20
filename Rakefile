@@ -18,8 +18,7 @@ task :test => [:build] do
     check_img_http: true,
     internal_domains: ['www.mide.io'],
     url_ignore: [
-      /https?:\/\/localhost\/?.*/,
-      /https?:\/\/(www.)?damow.net\/?.*/
+      /https?:\/\/localhost\/?.*/
     ],
     http_status_ignore: [999]}
   HTMLProofer.check_directory('./_site', opts).run
