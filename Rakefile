@@ -18,6 +18,7 @@ task :test => [:build] do
     check_img_http: true,
     internal_domains: ['www.mide.io'],
     url_ignore: [
+      /https?:\/\/(\w+\.)?navsource.org\/?.*/, # See https://github.com/mide/mide.io/issues/4
       /https?:\/\/localhost\/?.*/
     ],
     http_status_ignore: [999]}
