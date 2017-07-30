@@ -138,13 +138,12 @@ footer{
     padding: 0px;
     list-style-position: inside;
     list-style-type: none;
-    // H1 is used only for page titles, so we start at H2.
-    .toc-h1{padding-left: 0px;}
-    .toc-h2{padding-left: 0px;}
-    .toc-h3{padding-left: 25px;}
-    .toc-h4{padding-left: 50px;}
-    .toc-h5{padding-left: 75px;}
-    .toc-h6{padding-left: 100px;}
+    ul{
+      position: relative;
+      padding-left: 25px;
+      list-style-position: inside;
+      list-style-type: none;
+    }
   }
 
 }
