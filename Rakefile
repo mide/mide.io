@@ -7,10 +7,6 @@ task :clean do
   Jekyll::Commands::Clean.process({})
 end
 
-task :serve do
-  Jekyll::Commands::Serve.process({})
-end
-
 task :test => [:build] do
   # Use html-proofer https://github.com/gjtorikian/html-proofer
   opts = {
