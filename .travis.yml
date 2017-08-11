@@ -13,8 +13,8 @@ deploy:
   provider: s3
   access_key_id: $AWS_KEY_ID
   secret_access_key: $AWS_SECRET_KEY
-  bucket: us-west-2-io-mide-www
-  region: us-west-2
+  bucket: $AWS_S3_BUCKET
+  region: $AWS_S3_REGION
   skip_cleanup: true
   local_dir: _site
 
