@@ -3,6 +3,7 @@ title_long: Mark Ide Jr
 email: hello@cranstonide.com
 url: https://www.mide.io
 markdown: redcarpet
+permalink: /blog/:year/:month/:day/:title/
 
 exclude:
   - Gemfile
