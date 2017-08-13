@@ -14,6 +14,7 @@ task :test => [:build] do
     check_img_http: true,
     internal_domains: ['www.mide.io'],
     url_ignore: [
+      /https?:\/\/(www\.)?soundcloud\.com\/?.*/,
       /https?:\/\/localhost\/?.*/
     ],
     http_status_ignore: [999]}
