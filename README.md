@@ -1,6 +1,6 @@
 # Blog Content
 
-[![Build Status](https://travis-ci.org/mide/mide.io.svg?branch=master)](https://travis-ci.org/mide/mide.io) [![Dependency Status](https://gemnasium.com/badges/github.com/mide/mide.io.svg)](https://gemnasium.com/github.com/mide/mide.io) [![GitHub issues](https://img.shields.io/github/issues/mide/mide.io.svg)](https://github.com/mide/mide.io/issues)
+[![Build Status](https://travis-ci.org/mide/mide.io.svg?branch=master)](https://travis-ci.org/mide/mide.io) [![Dependency Status](https://gemnasium.com/badges/github.com/mide/mide.io.svg)](https://gemnasium.com/github.com/mide/mide.io) [![GitHub issues](https://img.shields.io/github/issues/mide/mide.io.svg)](https://github.com/mide/mide.io/issues) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mide/mide.io/master/LICENSE.txt)
 
 
 
