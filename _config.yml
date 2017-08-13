@@ -9,6 +9,7 @@ strict_front_matter: true
 exclude:
   - Gemfile
   - Gemfile.lock
+  - LICENSE.txt
   - Rakefile
   - README.md
   - vendor # Travis CI
