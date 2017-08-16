@@ -10,6 +10,7 @@ end
 task :test => [:build] do
   # Use html-proofer https://github.com/gjtorikian/html-proofer
   opts = {
+    cache: {timeframe: '1w'},
     check_html: true,
     check_img_http: true,
     internal_domains: ['www.mide.io'],
