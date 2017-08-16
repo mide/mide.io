@@ -9,9 +9,7 @@ cache:
 
 script:
  - bundle exec rake build
-
-before_deploy:
-  - bundle exec rake test
+ - bundle exec rake test
 
 deploy:
   provider: s3
