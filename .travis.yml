@@ -23,3 +23,9 @@ deploy:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+notifications:
+  pushover:
+    api_key: $PUSHOVER_API_KEY
+    users:
+      - $PUSHOVER_USER_KEY
