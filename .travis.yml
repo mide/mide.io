@@ -26,6 +26,8 @@ env:
 
 notifications:
   pushover:
+    on_success: always
+    on_failure: always
     api_key: $PUSHOVER_API_KEY
     users:
       - $PUSHOVER_USER_KEY
