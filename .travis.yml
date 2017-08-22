@@ -22,12 +22,11 @@ deploy:
 
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 notifications:
   pushover:
-    on_success: always
-    on_failure: always
-    api_key: $PUSHOVER_API_KEY
+    api_key:
+      secure: "1JPv8qQq81K/tMKlEnO485EKceQc6wwcOaVL2qKiduftNwTqMdLFGE+G1sAc6c+3NZwCdkTU2jvPKILKFNeMPmX2DPCrKDuFVWe7LwTKt9L/zTMybqD7z4ioGbJuX5qinBhRha8mLH1qTR78LVwLNZAW1+eTUYeiHuc/ppOmwqoU22OTiWQdvQHaUMU64dmAQ9HoSJ6yHVohDtmEDp3y+0ORhsf8y9mebnsDWy9fDrdMgtP3s42BRfITcJ+iX5S3cPypZ59OQHQ7111Ctv/2UDt6QAupIAdYjDOrgYG7BXulX3ijxg3bzKduKLcUxYkccMfsF8KBU8OHI02ZxmZ6Sw8ULbEefgZCmTDxmflGo3Sstos/3wZxab0CJz/0zhCBDxeHZHzzq58Z6Vkey4niSxVAGtXe5oQD/PH7xo6BY/qLEMalRSwok2HLYPmPucvtUGFfit7QBXt+8k4lM8Uet+SSnDl8hkUObLs8Gt/QZrrKGgIaL9Ke/dH6IReRVIKAaXNw8T6O3yeLfoGQIPw6hNqqlWj3lEAfzdFrqMk+TOBCogz7Mb4HNoblzwHrdoZY64L+LEq+jPaGkNDVOi3GhWvOR8TkEjZOK+9iNzX3et/TgjKyIVsfJu9fa0T+3k7aMMIxTJjmD1AnOz636EhJH0OoBhiPMnowmUGTwUHM2pY="
     users:
-      - $PUSHOVER_USER_KEY
+      - secure: "H97b5lgj87cw55JVudSMhFWpPkSGwhEwBwyTYIGVGpYKuRyY/m8eQiThT5K7zTvs74WbejEnIl+/vinuXZk6yZn+zyeUc0dbhN0wMZMSRCjbS71etpaNbBYsgqGuJJwujCHqtmdDmhD6XEPSKIFL8eOBtbgpM5B5viPhVj9n4ZJKU7S64Q6uFbQu+ZbOIkXtWvpRDBGucOZo87kee0kcQDNLTjrYowa4Q2ct/9M6TPRw/dyU1oi4RoDtwuj0ihAWqnXX5Rs3PyE/3TyTDXIqoIOYrbSrBZqpFeKD8du6awvmyX8oXkXcbNM3OWX0pTOYpaIrZsw+mjv7IVvSUkAJTOqE1IY4L/tBQu2YAn6FqC0C64fGMUoJ1pe6VE3H44dsZvxDMMb88pHc6p5UUTfo+u/DFwLJ6vpQzwy1nOdDAjHfs2wIPUH5SNMvl0hELmWBJzae+XrV9RlzCSdKwOvOgoQYvZRqNrJIoTjMVxYB5VgbMmIcawPBN8NSkmocc1HXUlVlh44WbNTjL3PEWJa+4wUQq7aFgpKXEIwIVsD09fawlu1Q5HlbjnoeSPQ3PAGzv5dtn0MiW92ps5A0Y5jBzSD89UVVkvfkxXFeb6D2700npA3NwOiOxAUVByXsett9yH5/0lEItbd8OrL6INZmqp/+hQ5jVFcSah/X+7hjIBM="
