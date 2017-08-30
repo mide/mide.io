@@ -1,5 +1,4 @@
 require 'twitter'
-require 'json'
 
 module TweetCollection
   class Generator < Jekyll::Generator
