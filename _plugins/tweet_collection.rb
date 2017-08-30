@@ -38,7 +38,6 @@ module TweetCollection
 
     def hyperlink(tweet)
       t = tweet.dup
-      t = t.gsub('<', '').gsub('>', '').gsub(/\n+/, "")
       # Evaluate websites first, because we insert links after.
       t.gsub!(/(?<website>https?:\/\/[^\s]+)/, '<a href="\k<website>">\k<website></a>')
       t.gsub!(/@(?<username>\w+)/, '<a href="https://twitter.com/\k<username>">@\k<username></a>')
