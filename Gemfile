@@ -6,4 +6,5 @@ source 'https://rubygems.org' do
   gem 'jekyll-toc'
   gem 'rake'
   gem 'redcarpet'
+  gem 'twitter'
 end
