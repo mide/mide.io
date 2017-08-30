@@ -4,11 +4,12 @@ module TweetCollection
   class Generator < Jekyll::Generator
 
     def generate(site)
+      # Fix for local development, ignores Twitter.
       if ENV['TWITTER_CONSUMER_KEY'].nil?
         site.data['tweets'] = []
-        return
+      else
+        site.data['tweets'] = tweets
       end
-      site.data['tweets'] = tweets
     end
 
     private
