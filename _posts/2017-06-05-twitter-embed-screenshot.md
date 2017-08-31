@@ -51,3 +51,11 @@ I have a [daily build job](https://travis-ci.org/mide/twitter-timeline-to-png) (
 - This logic could be used to develop a local cache of just about anything. I could even keep my [ham radio license](/radio) `.PDF` in sync.
 - I may also add a timestamp to the image itself, so it's a little more clear when the screenshot was taken.
 - Stylizing the screenshot a little more is possible, too. I may add some overlay text explaining it's a screenshot.
+
+## Updates
+
+### Jekyll Generator
+
+I've switched my contact page to use a [custom Jekyll generator](https://github.com/mide/mide.io/blob/master/_plugins/tweet_collection.rb), meaning that the above mentioned image is no longer there. Together with a [nightly build](https://travis-ci.org/mide/mide.io), this generator puts the tweets in the page without including an image, and it now matches my theme. It still matches my goal of privacy, but I feel this was a better solution than the image, hence the replacement.
+
+I'd love to clean up my code and release the generator as an open source plugin. It needs a little work before it's ready, but that's the goal.
