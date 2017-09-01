@@ -23,8 +23,7 @@ plugins:
   - jekyll-toc
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
