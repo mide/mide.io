@@ -6,7 +6,7 @@ module TweetCollection
     DEFAULT_TWITTER_DISPLAY_COUNT = 10
 
     def generate(site)
-      @site = site.freeze
+      @site = site.dup.freeze
       if twitter_handle.length == 0
         puts "Included Twitter plugin, but no 'twitter_handle' key/value found in config."
         site.data['tweets'] = []
