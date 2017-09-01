@@ -7,21 +7,31 @@ module TweetCollection
 
     def generate(site)
       @site = site.dup.freeze
-      if twitter_handle.length == 0
-        puts "Included Twitter plugin, but no 'twitter_handle' key/value found in config."
-        site.data['tweets'] = []
-        return
-      end
-
-      begin
-        site.data['tweets'] = tweets
-      rescue Twitter::Error::Forbidden
-        puts "Twitter Gem was unable to authenticate. Did you set the TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_ACCESS_TOKEN, and TWITTER_ACCESS_TOKEN_SECRET environment variables?"
-        raise
-      end
+      ensure_twitter_handle!
+      site.data['tweets'] = (offline_mode? ? testing_tweets : tweets)
     end
 
     private
+
+    def offline_mode?
+      @site.config.fetch("twitter_force_offline", false).to_s == 'true'
+    end
+
+    def ensure_twitter_handle!
+      raise "No twitter_handle defined in configuration." if twitter_handle.length == 0
+    end
+
+    def twitter_handle
+      @site.config.fetch("twitter_handle", nil).to_s.strip
+    end
+
+    def tweet_display_count
+      @site.config.fetch("twitter_display_count", DEFAULT_TWITTER_DISPLAY_COUNT).to_i
+    end
+
+    def tweet_url(tweet)
+      "https://twitter.com/#{tweet.user.screen_name}/status/#{tweet.id}"
+    end
 
     def client
       @_client = Twitter::REST::Client.new do |config|
@@ -43,14 +53,26 @@ module TweetCollection
           'id'             => t.id
         }
       end
+    rescue Twitter::Error::Forbidden
+      puts "Twitter Gem was unable to authenticate. Did you set the TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_ACCESS_TOKEN, and TWITTER_ACCESS_TOKEN_SECRET environment variables? Are they invalid?"
+      raise
     end
 
-    def twitter_handle
-      @site.config.fetch("twitter_handle", nil).to_s.strip
-    end
-
-    def tweet_display_count
-      @site.config.fetch("twitter_display_count", DEFAULT_TWITTER_DISPLAY_COUNT).to_i
+    def testing_tweets
+      # dupe for display count
+      [
+        "This is a local Tweet (not actually tweeted).",
+        "Loving the weather! #warm",
+        "I use @jekyllrb to power my website! #opensource https://www.example.com"
+      ].map do |t|
+        {
+          'html_text'      => hyperlink(t),
+          'date_formatted' => "June 1 @ 1:27 AM UTC",
+          'date'           => nil,
+          'url'            => "https://twitter.com/cranstonide",
+          'id'             => nil
+        }
+      end
     end
 
     def hyperlink(tweet)
@@ -60,10 +82,6 @@ module TweetCollection
       t.gsub!(/@(?<username>\w+)/, '<a href="https://twitter.com/\k<username>">@\k<username></a>')
       t.gsub!(/#(?<hashtag>\w+)/, '<a href="https://twitter.com/hashtag/\k<hashtag>">#\k<hashtag></a>')
       t
-    end
-
-    def tweet_url(tweet)
-      "https://twitter.com/#{tweet.user.screen_name}/status/#{tweet.id}"
     end
 
   end
