@@ -3,6 +3,8 @@ require 'twitter'
 module TweetCollection
   class Generator < Jekyll::Generator
 
+    DEFAULT_TWITTER_DISPLAY_COUNT = 10
+
     def generate(site)
       @site = site.freeze
       if twitter_handle.length == 0
@@ -48,7 +50,7 @@ module TweetCollection
     end
 
     def tweet_display_count
-      @site.config.fetch("twitter_display_count", 10).to_i
+      @site.config.fetch("twitter_display_count", DEFAULT_TWITTER_DISPLAY_COUNT).to_i
     end
 
     def hyperlink(tweet)
