@@ -6,6 +6,9 @@ markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title.html
 strict_front_matter: true
 
+# Twitter Plugin
+twitter_handle: cranstonide
+
 exclude:
   - Gemfile
   - Gemfile.lock

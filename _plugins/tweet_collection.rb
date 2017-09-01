@@ -4,18 +4,23 @@ module TweetCollection
   class Generator < Jekyll::Generator
 
     def generate(site)
-      # Fix for local development, ignores Twitter.
-      if ENV['TWITTER_CONSUMER_KEY'].nil?
+      if !site.config.has_key? 'twitter_handle'
+        puts "Included Twitter plugin, but no 'twitter_handle' key found in config."
         site.data['tweets'] = []
-      else
-        site.data['tweets'] = tweets
+        return
+      end
+
+      begin
+        site.data['tweets'] = tweets(site.config['twitter_handle'])
+      rescue Twitter::Error::Forbidden
+        puts "Twitter Gem was unable to authenticate. Did you set the TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_ACCESS_TOKEN, and TWITTER_ACCESS_TOKEN_SECRET environment variables?"
+        raise
       end
     end
 
     private
 
     def client
-
       @_client = Twitter::REST::Client.new do |config|
         config.consumer_key        = ENV['TWITTER_CONSUMER_KEY']
         config.consumer_secret     = ENV['TWITTER_CONSUMER_SECRET']
@@ -24,8 +29,8 @@ module TweetCollection
       end
     end
 
-    def tweets
-      raw_tweets = client.user_timeline("cranstonide", {count: 10})
+    def tweets(twitter_handle)
+      raw_tweets = client.user_timeline(twitter_handle, {count: 10})
       raw_tweets.map do |t|
         {
           'html_text'      => hyperlink(t.full_text),
