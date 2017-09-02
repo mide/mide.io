@@ -59,7 +59,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-toc (0.3.0)
       nokogiri (~> 1.6)
-    jekyll-twitter-collection (0.0.1)
+    jekyll-twitter-collection (0.0.3)
+      twitter (~> 6.1)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.14.0)
@@ -125,7 +126,6 @@ DEPENDENCIES
   jekyll-twitter-collection!
   rake!
   redcarpet!
-  twitter!
 
 BUNDLED WITH
    1.15.4
