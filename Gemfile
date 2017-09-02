@@ -1,5 +1,6 @@
 source 'https://rubygems.org' do
   gem 'jekyll'
+  gem "jekyll-twitter-collection"
   gem 'html-proofer'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'

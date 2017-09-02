@@ -21,6 +21,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-toc
+  - jekyll-twitter-collection
 
 defaults:
   - scope:
