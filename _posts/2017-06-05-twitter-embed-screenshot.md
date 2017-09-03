@@ -56,6 +56,6 @@ I have a [daily build job](https://travis-ci.org/mide/twitter-timeline-to-png) (
 
 ### Jekyll Generator
 
-I've switched my contact page to use a [custom Jekyll generator](https://github.com/mide/mide.io/blob/master/_plugins/tweet_collection.rb), meaning that the above mentioned image is no longer there. Together with a [nightly build](https://travis-ci.org/mide/mide.io), this generator puts the tweets in the page without including an image, and it now matches my theme. It still matches my goal of privacy, but I feel this was a better solution than the image, hence the replacement.
+I've switched my contact page to use a [custom Jekyll generator](https://github.com/mide/jekyll-twitter-collection), meaning that the above mentioned image is no longer there. Together with a [nightly build](https://travis-ci.org/mide/mide.io), this generator puts the tweets in the page without including an image, and it now matches my theme. It still matches my goal of privacy, but I feel this was a better solution than the image, hence the replacement.
 
 I'd love to clean up my code and release the generator as an open source plugin. It needs a little work before it's ready, but that's the goal.
