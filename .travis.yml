@@ -8,8 +8,8 @@ cache:
     - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 
 script:
-  - bundle exec rake build
-  - bundle exec rake test
+ - bundle exec rake build
+ # - bundle exec rake test
 
 deploy:
   provider: s3
