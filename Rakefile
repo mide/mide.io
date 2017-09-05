@@ -17,6 +17,8 @@ task :test => [:build] do
     internal_domains: ['www.mide.io'],
     hydra: { max_concurrency: 10 },
     url_ignore: [
+      /https?:\/\/.*soundcloud\.com\/?.*/,
+      /https?:\/\/.*maxcdn\.com\/?.*/,
       /https?:\/\/localhost\/?.*/
     ],
     http_status_ignore: [999]}
