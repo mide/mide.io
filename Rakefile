@@ -15,6 +15,7 @@ task :test => [:build] do
     check_html: true,
     check_img_http: true,
     internal_domains: ['www.mide.io'],
+    hydra: { max_concurrency: 10 },
     url_ignore: [
       /https?:\/\/localhost\/?.*/
     ],
