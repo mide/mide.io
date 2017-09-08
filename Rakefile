@@ -15,6 +15,10 @@ def ignored_urls
   ignored_domains.map { |domain| /https?:\/\/.*#{domain.gsub('.', '\.')}(\/.*)?/ }
 end
 
+def external_test_enabled?
+  ENV['TEST_DISABLE_EXTERNAL'].to_s.downcase != "true"
+end
+
 task :build => ['_site/index.html']
 
 task :clean do
@@ -29,6 +33,7 @@ task :test => [:build] do
     cache: {timeframe: '1w'},
     check_html: true,
     check_img_http: true,
+    disable_external: external_test_enabled?,
     http_status_ignore: [999],
     hydra: { max_concurrency: 10 },
     internal_domains: ['www.mide.io'],
