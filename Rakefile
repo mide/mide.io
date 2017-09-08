@@ -4,10 +4,10 @@ require 'html-proofer'
 # Returns a list of domains, in plain string format. Leave off 'https://www.'
 # and '/path/to/file.html', as these will be added in the regex of ignored_urls.
 def ignored_domains
-  [
-    "maxcdn.com",
-    "localhost"
-  ]
+  %{
+    localhost
+    maxcdn.com
+  }.lines.map(&:strip).reject(&:empty?).sort
 end
 
 # Returns an array of domains formatted in a very forgiving regex.
