@@ -13,7 +13,7 @@ end
 
 # Returns an array of domains formatted in a very forgiving regex.
 def ignored_urls
-  ignored_domains.map { |domain| /https?:\/\/.*#{domain.replace('.', '\.')}(\/.*)?/ }
+  ignored_domains.map { |domain| /https?:\/\/.*#{domain.gsub('.', '\.')}(\/.*)?/ }
 end
 
 task :build => ['_site/index.html']
