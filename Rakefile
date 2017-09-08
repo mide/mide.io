@@ -25,14 +25,15 @@ end
 task :test => [:build] do
   # Use html-proofer https://github.com/gjtorikian/html-proofer
   opts = {
-    log_level: :debug,
     cache: {timeframe: '1w'},
     check_html: true,
     check_img_http: true,
-    internal_domains: ['www.mide.io'],
+    http_status_ignore: [999],
     hydra: { max_concurrency: 10 },
-    url_ignore: ignored_urls,
-    http_status_ignore: [999]}
+    internal_domains: ['www.mide.io'],
+    log_level: :debug,
+    url_ignore: ignored_urls
+  }
   HTMLProofer.check_directory('./_site', opts).run
 end
 
