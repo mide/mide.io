@@ -22,6 +22,8 @@ task :clean do
 end
 
 task :test => [:build] do
+  Jekyll.logger.info "Testing the generated site."
+  Jekyll.logger.info "Ignoring the following #{ignored_domains.count} domain(s) from link rot checks: #{ignored_domains.join(', ')}."
   # Use html-proofer https://github.com/gjtorikian/html-proofer
   opts = {
     cache: {timeframe: '1w'},
