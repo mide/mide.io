@@ -5,8 +5,6 @@ require 'html-proofer'
 # and '/path/to/file.html', as these will be added in the regex of ignored_urls.
 def ignored_domains
   [
-    "soundcloud.com",
-    "maxcdn.com",
     "localhost"
   ]
 end
