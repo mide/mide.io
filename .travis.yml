@@ -13,9 +13,6 @@ before_install:
 before_script:
   - aws s3 sync $TRAVIS_S3_CACHE_PATH _site/
 
-after_success:
-  - aws s3 sync _site/ $TRAVIS_S3_CACHE_PATH
-
 jobs:
   include:
 
@@ -29,6 +26,7 @@ jobs:
     - stage: build
       script:
         - bundle exec rake build
+        - aws s3 sync _site/ $TRAVIS_S3_CACHE_PATH
 
     - stage: test
       script:
@@ -54,7 +52,6 @@ jobs:
 
     - stage: cleanup
       script:
-        - rm -r site_/*
         - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH/*
 
 env:
