@@ -7,10 +7,24 @@ cache:
   directories:
     - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 
+before_install:
+  - pip install --user awscli
+
+before_script:
+  - aws s3 sync $TRAVIS_S3_CACHE_PATH _site/
+
+after_success:
+  - aws s3 sync _site/ $TRAVIS_S3_CACHE_PATH
+
 jobs:
   include:
-    - stage: 'Warm Up Cache'
-      script: true
+
+    # Warms up Cache, cleans out _site/ S3 cache. I only run one build at a
+    # time, otherwise this wouldn't work. If I ever need to support conccurent
+    # builds, I just need to add the build ID into the path.
+    - stage: 'setup'
+      script:
+        - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH/*
 
     - stage: build
       script:
@@ -28,7 +42,7 @@ jobs:
         - TEST_SUITE=remote
 
     - stage: deploy
-      script: bundle exec rake build # Replace this with S3 Cache?
+      script: skip
       deploy:
         provider: s3
         access_key_id: $AWS_KEY_ID
@@ -38,9 +52,14 @@ jobs:
         skip_cleanup: true
         local_dir: _site
 
+    - stage: cleanup
+      script:
+        - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH/*
+
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+    - PATH=$HOME/.local/bin:$PATH # For AWS CLI installation
 
 notifications:
   pushover:
