@@ -54,6 +54,7 @@ jobs:
 
     - stage: cleanup
       script:
+        - rm -r site_/*
         - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH/*
 
 env:
