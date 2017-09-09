@@ -15,15 +15,8 @@ def ignored_urls
   ignored_domains.map { |domain| /https?:\/\/.*#{domain.gsub('.', '\.')}(\/.*)?/ }
 end
 
-task :build => ['_site/index.html']
-
-task :clean do
-  Jekyll::Commands::Clean.process({})
-end
-
-task :test_all => [:test_local, :test_external]
-
-task :test_local => [:build] do
+def test_local!
+  Jekyll.logger.info "Testing the Local Assets."
   opts = {
     check_html: true,
     check_img_http: true,
@@ -32,8 +25,8 @@ task :test_local => [:build] do
   HTMLProofer.check_directory('./_site', opts).run
 end
 
-task :test_remote => [:build] do
-  Jekyll.logger.info "Testing the generated site."
+def test_remote!
+  Jekyll.logger.info "Testing the Remote Assets."
   Jekyll.logger.info "Ignoring the following #{ignored_domains.count} domain(s) from link rot checks: #{ignored_domains.join(', ')}."
   opts = {
     cache: {timeframe: '1w'},
@@ -44,6 +37,24 @@ task :test_remote => [:build] do
     url_ignore: ignored_urls
   }
   HTMLProofer.check_directory('./_site', opts).run
+end
+
+task :build => ['_site/index.html']
+
+task :clean do
+  Jekyll::Commands::Clean.process({})
+end
+
+task :test => [:build] do
+  known_test_suites = ['ALL', 'REMOTE', 'LOCAL']
+  test_suite = ENV.fetch("TEST_SUITE", 'ALL').upcase
+
+  if known_test_suites.include? test_suite
+    test_local!  if ['ALL', 'LOCAL'].include? test_suite
+    test_remote! if ['ALL', 'REMOTE'].include? test_suite
+  else
+    raise "Unknown TEST_SUITE #{test_suite}. Expecting one of: #{known_test_suites.join(', ')}."
+  end
 end
 
 file '_site/index.html' do
