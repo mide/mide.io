@@ -18,7 +18,10 @@ jobs:
 
     - stage: test
       script:
-        - bundle exec rake test
+        - bundle exec rake test_local
+    - stage: test
+      script:
+        - bundle exec rake test_remote
 
     - stage: deploy
       script: bundle exec rake build # Replace this with S3 Cache?

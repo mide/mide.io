@@ -21,18 +21,26 @@ task :clean do
   Jekyll::Commands::Clean.process({})
 end
 
-task :test => [:build] do
-  Jekyll.logger.info "Testing the generated site."
-  Jekyll.logger.info "Ignoring the following #{ignored_domains.count} domain(s) from link rot checks: #{ignored_domains.join(', ')}."
-  # Use html-proofer https://github.com/gjtorikian/html-proofer
+task :test_all => [:test_local, :test_external]
+
+task :test_local => [:build] do
   opts = {
-    cache: {timeframe: '1w'},
     check_html: true,
     check_img_http: true,
+    disable_external: true
+  }
+  HTMLProofer.check_directory('./_site', opts).run
+end
+
+task :test_remote => [:build] do
+  Jekyll.logger.info "Testing the generated site."
+  Jekyll.logger.info "Ignoring the following #{ignored_domains.count} domain(s) from link rot checks: #{ignored_domains.join(', ')}."
+  opts = {
+    cache: {timeframe: '1w'},
+    external_only: true,
     http_status_ignore: [999],
     hydra: { max_concurrency: 10 },
     internal_domains: ['www.mide.io'],
-    log_level: :debug,
     url_ignore: ignored_urls
   }
   HTMLProofer.check_directory('./_site', opts).run
