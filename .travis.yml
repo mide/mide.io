@@ -6,6 +6,7 @@ cache:
   bundler: true
   directories:
     - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
+    - $HOME/.cache/pip
 
 before_install:
   - pip install --user awscli
@@ -21,7 +22,7 @@ jobs:
     # builds, I just need to add the build ID into the path.
     - stage: 'setup'
       script:
-        - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH/*
+        - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH
 
     - stage: build
       script:
@@ -52,7 +53,7 @@ jobs:
 
     - stage: cleanup
       script:
-        - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH/*
+        - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH
 
 env:
   global:
