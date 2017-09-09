@@ -7,18 +7,29 @@ cache:
   directories:
     - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 
-script:
-  - bundle exec rake build
-  - bundle exec rake test
+jobs:
+  include:
+    - stage: 'Warm Up Cache'
+      script: true
 
-deploy:
-  provider: s3
-  access_key_id: $AWS_KEY_ID
-  secret_access_key: $AWS_SECRET_KEY
-  bucket: $AWS_S3_BUCKET
-  region: $AWS_S3_REGION
-  skip_cleanup: true
-  local_dir: _site
+    - stage: build
+      script:
+        - bundle exec rake build
+
+    - stage: test
+      script:
+        - bundle exec rake test
+
+    - stage: deploy
+      script: bundle exec rake build # Replace this with S3 Cache?
+      deploy:
+        provider: s3
+        access_key_id: $AWS_KEY_ID
+        secret_access_key: $AWS_SECRET_KEY
+        bucket: $AWS_S3_BUCKET
+        region: $AWS_S3_REGION
+        skip_cleanup: true
+        local_dir: _site
 
 env:
   global:
