@@ -6,7 +6,6 @@ require 'html-proofer'
 def ignored_domains
   @_ignored_domains ||= %{
     localhost
-    maxcdn.com
     un.org
   }.lines.map(&:strip).reject(&:empty?).sort.freeze
 end
