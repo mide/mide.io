@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org' do
-  gem 'html-proofer'
+  gem 'html-proofer', require: false
   gem 'jekyll'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
