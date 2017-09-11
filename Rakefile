@@ -29,9 +29,9 @@ end
 
 RuboCop::RakeTask.new(:rubocop)
 
-task style: [:rubocop]
+task test_style: [:rubocop]
 
-task test: %i[build style] do
+task test: %i[build test_style] do
   Jekyll.logger.info "Ignoring the following #{ignored_domains.count}"\
   " domain(s) from link rot checks: #{ignored_domains.join(', ')}."
   opts = {
