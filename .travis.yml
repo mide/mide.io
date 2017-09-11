@@ -6,62 +6,23 @@ cache:
   bundler: true
   directories:
     - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
-    - $HOME/.cache/pip
 
-before_install:
-  - pip install --user awscli
+script:
+  - bundle exec rake build
+  - bundle exec rake test
 
-before_script:
-  - aws s3 sync $TRAVIS_S3_CACHE_PATH _site/
-
-after_failure:
-  - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH
-
-jobs:
-  include:
-
-    # Warms up Cache, cleans out _site/ S3 cache. I only run one build at a
-    # time, otherwise this wouldn't work. If I ever need to support conccurent
-    # builds, I just need to add the build ID into the path.
-    - stage: 'setup'
-      script:
-        - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH
-
-    - stage: build
-      script:
-        - bundle exec rake build
-        - aws s3 sync _site/ $TRAVIS_S3_CACHE_PATH
-
-    - stage: test
-      script:
-        - bundle exec rake test
-      env:
-        - TEST_SUITE=local
-    - stage: test
-      script:
-        - bundle exec rake test
-      env:
-        - TEST_SUITE=remote
-
-    - stage: deploy
-      script: skip
-      deploy:
-        provider: s3
-        access_key_id: $AWS_ACCESS_KEY_ID
-        secret_access_key: $AWS_SECRET_ACCESS_KEY
-        bucket: $AWS_S3_BUCKET
-        region: $AWS_S3_REGION
-        skip_cleanup: true
-        local_dir: _site
-
-    - stage: cleanup
-      script:
-        - aws s3 rm --recursive $TRAVIS_S3_CACHE_PATH
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
+  bucket: $AWS_S3_BUCKET
+  region: $AWS_S3_REGION
+  skip_cleanup: true
+  local_dir: _site
 
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-    - PATH=$HOME/.local/bin:$PATH # For AWS CLI installation
 
 notifications:
   pushover:
