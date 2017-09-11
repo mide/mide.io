@@ -2,7 +2,6 @@
 
 require 'jekyll'
 require 'html-proofer'
-require 'rubocop/rake_task'
 
 # Returns a list of domains, in plain string format. Leave off 'https://www.'
 # and '/path/to/file.html', as these will be added in the regex of ignored_urls.
@@ -27,11 +26,7 @@ task :clean do
   Jekyll::Commands::Clean.process({})
 end
 
-RuboCop::RakeTask.new(:rubocop)
-
-task test_style: [:rubocop]
-
-task test: %i[build test_style] do
+task test: %i[build] do
   Jekyll.logger.info "Ignoring the following #{ignored_domains.count}"\
   " domain(s) from link rot checks: #{ignored_domains.join(', ')}."
   opts = {

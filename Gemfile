@@ -9,5 +9,4 @@ source 'https://rubygems.org' do
   gem 'jekyll-twitter-collection'
   gem 'rake'
   gem 'redcarpet'
-  gem 'rubocop', '~> 0.49.1', require: false
 end
