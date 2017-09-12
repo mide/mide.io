@@ -18,7 +18,7 @@ I've taken a few steps to make privacy easier for my visitors. Keep in mind that
 
 ### Google Analytics Deletion
 
-[I recently decided to disable](https://github.com/mide/mide.io/commit/6b3074b10407880cecefb3f9587a8376fc68c5b2) Google Analytics. While it provided me with some great insight into the visitors of my website; I made the conscious decision that my visitor's privacy was not worth my curiosity factor.
+[I recently decided to disable](https://github.com/mide/mide.io/commit/e177909cf820c3af79ef855a48fcf48fb7b49324) Google Analytics. While it provided me with some great insight into the visitors of my website; I made the conscious decision that my visitor's privacy was not worth my curiosity factor.
 
 I have not replaced the functionality of [Google Anayltics](https://www.google.com/analytics/) with another tool (like [Piwik](https://piwik.org/) or others), but it's worth mentioning that [AWS CloudFront](https://aws.amazon.com/cloudfront/) is collecting some of this information (see the Tin Foil Hat section below).
 
