@@ -40,12 +40,13 @@ file '_site/index.html' do
 end
 
 namespace 'test' do
-  RuboCop::RakeTask.new
+  RuboCop::RakeTask.new(:ruby_style).tap do |task|
+    task.options = %w[--fail-fast --extra-details]
+  end
 
-  task everything: %i[local remote style]
-  task style: %i[rubocop]
+  task everything: %i[html_local html_remote ruby_style]
 
-  task remote: %i[build] do
+  task html_remote: %i[build] do
     opts = {
       cache: { timeframe: '1w' },
       external_only: true,
@@ -57,7 +58,7 @@ namespace 'test' do
     run_html_proofer!(opts, :remote)
   end
 
-  task local: %i[build] do
+  task html_local: %i[build] do
     opts = {
       check_html: true,
       check_img_http: true,
