@@ -20,8 +20,8 @@ def ignored_urls
   end
 end
 
-def run_html_proofer!(opts, mode)
-  Jekyll.logger.info "HTMLProofer (#{mode}): Ignoring the following " \
+def run_html_proofer!(opts)
+  Jekyll.logger.info "HTMLProofer: Ignoring the following " \
     "#{ignored_domains.count} domain(s) from link rot checks: " \
     "#{ignored_domains.join(', ')}."
 
@@ -54,7 +54,7 @@ namespace 'test' do
       internal_domains: ['www.mide.io'],
       url_ignore: ignored_urls
     }
-    run_html_proofer!(opts, :remote)
+    run_html_proofer!(opts)
   end
 
   task html_local: %i[build] do
@@ -63,6 +63,6 @@ namespace 'test' do
       check_img_http: true,
       disable_external: true
     }
-    run_html_proofer!(opts, :local)
+    run_html_proofer!(opts)
   end
 end
