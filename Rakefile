@@ -21,7 +21,7 @@ def ignored_urls
 end
 
 def run_html_proofer!(opts)
-  Jekyll.logger.info "HTMLProofer: Ignoring the following " \
+  Jekyll.logger.info 'HTMLProofer: Ignoring the following ' \
     "#{ignored_domains.count} domain(s) from link rot checks: " \
     "#{ignored_domains.join(', ')}."
 
