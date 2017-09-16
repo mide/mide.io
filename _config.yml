@@ -9,6 +9,10 @@ strict_front_matter: true
 # Twitter Plugin
 twitter_handle: cranstonide
 
+# Jekyll Tidy Plugin
+jekyll_tidy:
+  compress_html: false
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -20,6 +24,7 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-tidy
   - jekyll-toc
   - jekyll-twitter-collection
 
