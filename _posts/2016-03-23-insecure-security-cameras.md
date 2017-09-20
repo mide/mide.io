@@ -34,7 +34,6 @@ As if the previous points weren't enough of a letdown, whenever you run the Wind
 
 I have a fairly beefy computer, and I couldn't do anything while the client was open. I think it's safe to say that my plans with the RaspberryPi are definitely not going to work out.
 
-
 ## Solutions
 
 ### Newer / Different DVR Unit

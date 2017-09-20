@@ -94,6 +94,7 @@ Domain Name System Security Extensions ([DNSSEC](https://en.wikipedia.org/wiki/D
 Some jurisdictions prohibit the use of [strong encryption](https://en.wikipedia.org/wiki/Strong_cryptography) or [anonymizing software](https://en.wikipedia.org/wiki/Anonymity). Consult your laws before taking any actions. I am not responsible if you get in trouble for advice you read on the internet.
 
 ## Resources
+
 - [The Electronic Frontier Foundation](https://www.eff.org/)
 - [Surveillance Self-Defense Guide](https://ssd.eff.org/) from the EFF
 - [The Free Software Foundation](https://www.fsf.org/)
@@ -101,4 +102,5 @@ Some jurisdictions prohibit the use of [strong encryption](https://en.wikipedia.
 - [United Nations: The Universal Declaration of Human Rights](https://www.un.org/en/universal-declaration-human-rights/) (See Article 12)
 
 ## Conclusions
+
 Privacy isn't a switch you can turn on, it's a whole lifestyle of decisions. But don't fret, for there are helpful actions you can take at every level. Just remember, once something is public, it's public for good.

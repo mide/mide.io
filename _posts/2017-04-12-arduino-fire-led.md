@@ -47,6 +47,7 @@ Below is a picture of the completed project so you can zoom in. The Arduino is o
 - It is not suggested to run the LED strip right off the 5V output of the Arduino. Running this much current through the device may cause issues and shorten its lifespan. I knew the lights would only be on for a short time (seconds) so I was not concerned. I did see issues during testing when I had all the LEDs on at full brightness.
 
 ## Code
+
 Below is the code that was uploaded onto the device.
 
 **Full disclosure:** it was very late when this was written and I now see many optimizations that could have been made, but that's not what ended up as part of the project. For that reason, here is the actual code that was run during the musical. You may use this as a basis for your project.

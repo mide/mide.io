@@ -21,6 +21,7 @@ The following steps will get you started on trying out the system. If you're con
 If you're looking to just quickly play with Rocket.Chat, check out [their GitHub page](https://github.com/RocketChat/Rocket.Chat) were you can spin up servers on a variety of providers.
 
 ### MongoDB
+
 Rocket.Chat stores data in [MongoDB](https://www.mongodb.com/) so you'll need to start that up first. I suggest [mounting a volume](https://docs.docker.com/engine/tutorials/dockervolumes/) in order to get your data to persist. Otherwise, your data will be wiped out if you ever stop the container (restart the host, perform an upgrade, etc).
 
 ```bash
@@ -39,6 +40,7 @@ docker run \
 ```
 
 ### Rocket.Chat
+
 You can now start up the Rocket.Chat container. The container will need to be linked to the MongoDB container since the MondoBD container doesn't expose any ports.
 
 ```bash
@@ -57,7 +59,6 @@ docker run \
 ```
 
 This will expose Rocket.Chat on [`http://localhost/`](http://localhost) on the host. It's important to note that this does not provide any encryption (TLS); you'll need to use something like Nginx for that. Check out the TLS Certificate section below for more information.
-
 
 ## Automatic Backups
 
@@ -112,7 +113,6 @@ I personally use the API to [send notifications](https://api.slack.com/incoming-
 ```bash
 # Send message into Rocket.Chat #infrastructure room saying the backup is complete.
 curl -X POST --data-urlencode "payload={\"text\":\"The backup is complete.\"" https://rocketchat.example.com/hooks/room_id/rocket.cat/AUTH_TOKEN
-
 ```
 
 ### Chat Bot
@@ -145,11 +145,13 @@ docker run \
 # NOTE: Version v0.1.4 is latest stable at time of writing
 # Also, you may need additional or fewer environment variables depending on your EXTERNAL_SCRIPTS.
 ```
+
 ## Competitor Comparison
 
 The closest hosted competitors to Rocket.Chat are Slack and HipChat.
 
 ### Pricing / License
+
 I estimate a Rocket.Chat server can be run (Mongo, Rocket.Chat, Backups, and a chat bot) on an [AWS `t2.micro` instance](https://aws.amazon.com/ec2/instance-types/), and cost approximately $10 a month. These calculations are based off estimates, so keep that in mind.
 
 Without much surprise, Slack is the most expensive alternative. Seeing that my Rocket.Chat server currently has almost 15 users, we'd be looking at a bill of $100 per month! HipChat is better, but we'd still be facing $30 per month. The figure below shows the monthly cost of Rocket.Chat and two competitors as a function of users.
@@ -175,6 +177,7 @@ To give you an idea of the use, here is a graph showing the number of messages s
 [![Graph showing our utilization](https://assets.mide.io/blog/2016-08-12/messages-sent-over-time.png)](https://assets.mide.io/blog/2016-08-12/messages-sent-over-time.png)
 
 ## Thank You!
+
 I'd like to extend my deep gratitude to the [Rocket.Chat development team](https://rocket.chat/team) for working on what I believe to be one of the best open source projects.
 
 While time can be a precious commodity, I try to contribute to the project and hopefully this blog post will give the project a little more publicity. If Rocket.Chat seems like something neat to you, consider running it to share the love with friends.

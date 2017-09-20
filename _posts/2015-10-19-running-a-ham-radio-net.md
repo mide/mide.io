@@ -37,6 +37,7 @@ If your net has a script to follow, you'll want to have that ready. I follow the
 If you're planning on doing trivia or the alike, you will want to have a good list ready ahead of time - it's very hard to produce trivia on the fly while maintaining your list of check-ins.
 
 ## Running the Net
+
 To listen to what a net sounds like, this is a recording of George's Old Timer's Net from Monday, October 19th, 2015. Please note that some audio has been redacted by request. You may [download the audio here](https://assets.mide.io/blog/2015-10-19/ham-radio-net-recording.mp3).
 
 <audio controls>

@@ -167,7 +167,6 @@ If you don't see your repository here, it's possible that Travis CI is slightly 
 
 [![My builds](https://assets.mide.io/blog/2017-03-04/travis-my-repositories.png)](https://assets.mide.io/blog/2017-03-04/travis-my-repositories.png)
 
-
 Once you see a build on the left (it will likely be gray at first), you'll be ready to proceed.
 
 ### Add the Environment Variables
