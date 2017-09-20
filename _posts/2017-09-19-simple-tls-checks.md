@@ -6,9 +6,9 @@ date:   2017-09-19 17:00:00
 
 ## Motivation
 
-If you're implementing a new certificate into an environment, or perhaps many certificates, it's possible that the wrong files get paired up, or that different iterations of the files got mixed up.
+If you're implementing a new certificate, or perhaps many certificates into an environment it's possible that the wrong files, or different versions of the right files get paired up.
 
-Each file contains some metadata data, and if the `.key` and `.crt` files don't match, you may encounter errors. This is a tool I've had in my toolbox for some time, and it's about time I document it.
+Each file contains some metadata, and if the `.key` and `.crt` files aren't aligned, you may encounter errors. These commands are tools I've had in my toolbox for some time, and it's about time I document them.
 
 ## Checking Local Certificates' Moduli
 
