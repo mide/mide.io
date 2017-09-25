@@ -23,6 +23,7 @@ exclude:
 
 plugins:
   - jekyll-feed
+  - jekyll-git_metadata
   - jekyll-sitemap
   - jekyll-tidy
   - jekyll-toc

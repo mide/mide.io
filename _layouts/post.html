@@ -10,3 +10,5 @@ layout: default
 </details>
 
 {{ content | inject_anchors }}
+
+<p class="meta">This post was <a href="https://github.com/mide/mide.io/commit/{{page.git['first_commit']['long_sha']}}">first published on {{ page.git['first_commit']['commit_date'] | date: "%B %-d, %Y" }}</a> and <a href="https://github.com/mide/mide.io/commit/{{page.git['last_commit']['long_sha']}}">last updated on {{ page.git['last_commit']['commit_date'] | date: "%B %-d, %Y" }}</a>.</p>
