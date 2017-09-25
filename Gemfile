@@ -4,7 +4,6 @@ source 'https://rubygems.org' do
   gem 'html-proofer', require: false
   gem 'jekyll'
   gem 'jekyll-feed'
-  gem 'jekyll-git_metadata'
   gem 'jekyll-sitemap'
   gem 'jekyll-tidy'
   gem 'jekyll-toc'
