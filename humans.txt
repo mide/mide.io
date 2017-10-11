@@ -1,0 +1,39 @@
+---
+layout: null
+permalink: humans.txt
+---
+
+# ---------------------------------------------------------------- #
+#                                                                  #
+#    __                                        __          __      #
+#   |  |--.--.--.--------.---.-.-----.-----.  |  |_.--.--.|  |_    #
+#   |     |  |  |        |  _  |     |__ --|__|   _|_   _||   _|   #
+#   |__|__|_____|__|__|__|___._|__|__|_____|__|____|__.__||____|   #
+#                                                                  #
+#                                                                  #
+# ---------------------------------------------------------------- #
+# Because code is meant to be read by humans, it's just a handy    #
+# coincidence computers can read it too. See humanstxt.org for     #
+# more information on this file.                                   #
+# ---------------------------------------------------------------- #
+
+/* TEAM */
+
+    Name:     Mark Ide Jr
+    Contact:  {{site.email}} and {{site.url}}/contact
+    From:     Massachusetts, USA
+
+/* SITE */
+
+    Description: This website is the personal website of Mark Ide Jr.
+    URL:         {{site.url}}
+    Language:    English (EN)
+    Source Code: https://github.com/mide/mide.io
+
+/* META */
+
+    humans.txt:   {{site.url}}/humans.txt
+    robots.txt:   {{site.url}}/robots.txt
+    security.txt: {{site.url}}/security.txt
+    Sitemap:      {{site.url}}/sitemap.xml
+    RSS Feed:     {{site.url}}/feed.xml
