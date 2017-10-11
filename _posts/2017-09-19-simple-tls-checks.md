@@ -46,4 +46,4 @@ Modulus=DD4DCF9933E7492718EDC1B0BA50EB8155571B9FBBA45A10B889CE437483FBA3D0FC11BE
 ab20a5303e8ec55a316f5a17c7d9ab931114a69b  -
 ```
 
-That's it; I hope you find this useful. If you have something to add, please [let me know](https://www.mide.io/contact/).
+That's it; I hope you find this useful. If you have something to add, please [let me know]({{site.url}}/contact/).

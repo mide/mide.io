@@ -6,4 +6,4 @@ permalink: robots.txt
 User-agent: *
 Disallow:
 Disallow: /error/
-Sitemap: http://www.mide.io/sitemap.xml
+Sitemap: {{site.url}}/sitemap.xml

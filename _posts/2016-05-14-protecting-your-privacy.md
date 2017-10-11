@@ -10,7 +10,7 @@ Privacy is a very hot topic right now with advertisers trying to deliver relevan
 
 While I could go down a [deep rabbit hole](https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland) of government spying concerns, I'm going to keep this focused on businesses and advertisers whose business model depends on your information. For more information on what I mean, check out the Interactive [Do Not Track Documentary](https://donottrack-doc.com/), an awesome project showing how your data makes people money.
 
-If you feel that you have nothing to hide and this doesn't impact you, please [email me](https://www.mide.io/contact) with your bank accounts and complete internet browser history. It's never been about having something that needs to be hidden, it's the fact that it's none of my business which websites you browsed on Friday evening or how you spent your last paycheck.
+If you feel that you have nothing to hide and this doesn't impact you, please [email me]({{site.url}}/contact) with your bank accounts and complete internet browser history. It's never been about having something that needs to be hidden, it's the fact that it's none of my business which websites you browsed on Friday evening or how you spent your last paycheck.
 
 ## Steps I've Taken
 
