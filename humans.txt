@@ -29,11 +29,3 @@ permalink: humans.txt
     URL:         {{site.url}}
     Language:    English (EN)
     Source Code: https://github.com/mide/mide.io
-
-/* META */
-
-    humans.txt:   {{site.url}}/humans.txt
-    robots.txt:   {{site.url}}/robots.txt
-    security.txt: {{site.url}}/security.txt
-    Sitemap:      {{site.url}}/sitemap.xml
-    RSS Feed:     {{site.url}}/feed.xml
