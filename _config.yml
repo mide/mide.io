@@ -12,6 +12,7 @@ twitter_handle: cranstonide
 # Jekyll Tidy Plugin
 jekyll_tidy:
   compress_html: false
+  exclude: ["*.txt"]
 
 exclude:
   - Gemfile

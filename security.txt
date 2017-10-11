@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: security.txt
+---
+
+# ---------------------------------------------------------------------------- #
+#                                 security.txt                                 #
+# ---------------------------------------------------------------------------- #
+# I welcome responsible disclosure of issues. See https://securitytxt.org/ for #
+# details on this file.                                                        #
+# ---------------------------------------------------------------------------- #
+
+# Email and link to further contact information
+Contact: {{site.email}} and <{{site.url}}/contact>
+
+# I use Keybase as a public key host
+Encryption: https://keybase.io/mide
