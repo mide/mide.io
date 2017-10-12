@@ -28,4 +28,4 @@ permalink: humans.txt
     Description: This website is the personal website of {{site.name_long}}.
     URL:         {{site.url}}
     Language:    English (EN)
-    Source Code: https://github.com/mide/mide.io
+    Source Code: {{site.source_url}}

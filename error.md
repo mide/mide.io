@@ -6,6 +6,6 @@ hide_from_menu: true
 sitemap: false
 ---
 
-Looks like you've encountered an error. If you are surprised to be here, please consider letting me know by filing [an issue on GitHub](https://github.com/mide/mide.io/issues).
+Looks like you've encountered an error. If you are surprised to be here, please consider letting me know by filing [an issue on GitHub]({{site.source_url}}/issues).
 
 In the meantime, you can [go home]({{site.url}}).

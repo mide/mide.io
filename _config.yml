@@ -5,6 +5,7 @@ url: https://www.mide.io
 markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title.html
 strict_front_matter: true
+source_url: https://github.com/mide/mide.io
 
 # Twitter Plugin
 twitter_handle: cranstonide
