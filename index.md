@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Mark Ide Jr
+# {{site.name_long}}
 
 Hi there!
 

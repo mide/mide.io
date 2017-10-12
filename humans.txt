@@ -19,13 +19,13 @@ permalink: humans.txt
 
 /* TEAM */
 
-    Name:     Mark Ide Jr
+    Name:     {{site.name_long}}
     Contact:  {{site.email}} and {{site.url}}/contact
     From:     Massachusetts, USA
 
 /* SITE */
 
-    Description: This website is the personal website of Mark Ide Jr.
+    Description: This website is the personal website of {{site.name_long}}.
     URL:         {{site.url}}
     Language:    English (EN)
     Source Code: https://github.com/mide/mide.io
