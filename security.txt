@@ -21,3 +21,6 @@ Contact: {{site.email}} and <{{site.url}}/contact>
 
 # I use Keybase as a public key host
 Encryption: https://keybase.io/mide
+
+# I will disclose ALL security issues once addressed
+Disclosure: Full
