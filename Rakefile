@@ -10,6 +10,7 @@ def ignored_domains
   @_ignored_domains ||= %(
     localhost
     maxcdn.com
+    rocket.chat
     un.org
   ).lines.map(&:strip).reject(&:empty?).sort.freeze
 end
