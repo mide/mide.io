@@ -45,7 +45,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.9.0)
       concurrent-ruby (~> 1.0)
-    jekyll (3.6.0)
+    jekyll (3.6.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -66,7 +66,7 @@ GEM
       htmlbeautifier
       htmlcompressor
       jekyll
-    jekyll-toc (0.3.0)
+    jekyll-toc (0.4.0)
       nokogiri (~> 1.6)
     jekyll-twitter-collection (0.0.4)
       sanitize (~> 4.5)
