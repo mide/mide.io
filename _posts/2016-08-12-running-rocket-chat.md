@@ -106,7 +106,7 @@ There are plenty of guides on how to acquire TLS certificates and use Nginx, as 
 
 ### API
 
-The [Rocket.Chat API](https://rocket.chat/docs/developer-guides/rest-api/) is designed to be compatible with the [Slack API](https://api.slack.com/). This means that most anything that integrates with Slack can work with Rocket.Chat (you just need to be able to set the webhook URL). If the application uses Slack's OAuth Integrations, it may not work.
+The [Rocket.Chat API](https://docs.rocket.chat/developer-guides/rest-api) is designed to be compatible with the [Slack API](https://api.slack.com/). This means that most anything that integrates with Slack can work with Rocket.Chat (you just need to be able to set the webhook URL). If the application uses Slack's OAuth Integrations, it may not work.
 
 I personally use the API to [send notifications](https://api.slack.com/incoming-webhooks) of infrastructure events into a special channel.
 
