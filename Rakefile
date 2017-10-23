@@ -52,7 +52,7 @@ namespace 'test' do
       cache: { timeframe: '1w' },
       external_only: true,
       http_status_ignore: [999],
-      hydra: { max_concurrency: 1 },
+      hydra: { max_concurrency: 10 },
       internal_domains: ['www.mide.io'],
       url_ignore: ignored_urls
     }
