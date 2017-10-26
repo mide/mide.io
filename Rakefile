@@ -10,6 +10,7 @@ def ignored_domains
   @_ignored_domains ||= %(
     localhost
     maxcdn.com
+    morseinstitute.org
     rocket.chat
     t.co
     un.org
