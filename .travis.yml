@@ -30,6 +30,11 @@ env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
+matrix:
+  fast_finish: true
+  allow_failures:
+    - env: TEST_SUITE=remote
+
 notifications:
   pushover:
     api_key:
