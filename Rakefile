@@ -48,6 +48,8 @@ namespace 'test' do
   end
 
   task everything: %i[html_local html_remote ruby_style]
+  task local: %i[html_local ruby_style]
+  task remote: %i[html_remote]
 
   task html_remote: %i[build] do
     opts = {
