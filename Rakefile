@@ -53,7 +53,8 @@ namespace 'test' do
       http_status_ignore: [999],
       hydra: { max_concurrency: 10 },
       internal_domains: ['www.mide.io'],
-      url_ignore: ignored_urls
+      url_ignore: ignored_urls,
+      typhoeus: { ssl_verifypeer: false, ssl_verifyhost: 0 }
     }
     run_html_proofer!(opts)
   end
