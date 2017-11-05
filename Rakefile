@@ -42,7 +42,6 @@ namespace 'test' do
     task.options = %w[--fail-fast --extra-details]
   end
 
-  task everything: %i[html_local html_remote ruby_style]
   task local: %i[html_local ruby_style]
   task remote: %i[html_remote]
 
