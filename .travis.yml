@@ -6,6 +6,11 @@ cache:
   bundler: true
   directories:
     - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
+    
+addons:
+  apt:
+    packages:
+      - ca-certificates
 
 script:
   - bundle exec rake build
