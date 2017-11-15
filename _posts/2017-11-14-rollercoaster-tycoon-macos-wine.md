@@ -15,7 +15,7 @@ Unfortunately, I have a Mac, so I couldn't just run this in native Windows in [c
 
 My first attempt was to install Windows XP inside [VirtualBox](https://www.virtualbox.org/). The installation went great, but clicking anything in game lagged horribly. For some reason, the game was completely unplayable when running in the virtual environment. I tried using windowed mode, and several different VirtualBox settings, but everything left the game slowing to a halt.
 
-[![Screenshot of VirtualBox](https://assets.mide.io/blog/2017-11-11/rct-in-virtualbox.png)](https://assets.mide.io/blog/2017-11-11/rct-in-virtualbox.png)
+[![Screenshot of VirtualBox](https://assets.mide.io/blog/2017-11-14/rct-in-virtualbox.png)](https://assets.mide.io/blog/2017-11-14/rct-in-virtualbox.png)
 
 ## Investigating OpenRCT
 The [OpenRCT Project](https://openrct2.org/) is an open source re-implementation of RollerCoaster Tycoon 2 (not 1, as I wanted). Many people want the additional features of RCT2 over RCT1, but I specifically was going for the nostalgia. I think the RCT2 project looks awesome and would recommend looking at it.
@@ -36,7 +36,7 @@ I found a [great YouTube tutorial](https://www.youtube.com/watch?v=axC8A5suhQw) 
 brew cask install wineskin-winery
 ```
 
-![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/homebrew-wineskin-winery.png)
+![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/homebrew-wineskin-winery.png)
 
 
 ### Obtain Installation Medium
@@ -46,55 +46,55 @@ I had the original CD's, and digital backups of those, but [GOG](https://www.gog
 
 On the first startup of Winery, you'll need to add an engine. _(my screenshot has one listed because I've already done this)_. Click the `+` symbol.
 
-![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/winery-add-engine.png)
+![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/winery-add-engine.png)
 
 I opted to install the latest (`WS9Wine2.16`) engine. Select your version from the dropdown. Once you've picked that, click "Download and Install"
 
-![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/winery-add-engine-2.png)
+![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/winery-add-engine-2.png)
 
 You'll return to the previous screen, click "Create Blank Wrapper" to carve off a new Wine environment.
 
-![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/winery-create-blank-wrapper-1.png)
+![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/winery-create-blank-wrapper-1.png)
 
 You'll need to pick a name for the wrapper; I picked "RollerCoaster Tycoon". This name will show up on the MacOS dock if you end up docking it.
 
-![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/winery-create-blank-wrapper-2.png)
+![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/winery-create-blank-wrapper-2.png)
 
 The creation of the wrapper may take a moment, and you may get prompted to allow network connections. Make sure you allow, so that Wine can download needed packages.
 
-![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/winery-allow-firewall.png)
+![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/winery-allow-firewall.png)
 
 You can then open the wrapper in Finder. If it did not open you can probably find it in the directory, `/Users/$USER/Applications/Wineskin`.
 
-![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/winery-finished.png)
+![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/winery-finished.png)
 
 On the first launch you'll likely see "The application RollerCoaster Tycoon can't be opened". **This is normal.** Just relaunch it.
 
-![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/cant-open.png)
+![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/cant-open.png)
 
-![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/winery-start.png)
+![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/winery-start.png)
 
 When the wrapper starts, you may be tempted to start and click "Install Software" but make sure you select "Set Screen Options" first.
 
-[![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/winery-configure.png)](https://assets.mide.io/blog/2017-11-11/winery-configure.png)
+[![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/winery-configure.png)](https://assets.mide.io/blog/2017-11-14/winery-configure.png)
 
 ### Installing RollerCoaster Tycoon
 
 Clicking "Done" brings you back to the main Wineskin screen. You can now click "Install Software". Browse to the RollerCoaster Tycoon setup `.exe`. If this is your GOG copy, it will be the single file you downloaded.
 
-[![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-11/winery-select-installer.png)](https://assets.mide.io/blog/2017-11-11/winery-select-installer.png)
+[![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/winery-select-installer.png)](https://assets.mide.io/blog/2017-11-14/winery-select-installer.png)
 
 The setup will begin shortly. Click "Install" to begin the installation. **When the installation is complete, do not click "Launch Game".** Click "Exit" instead.
 
-[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-11/rct-setup-1.png)](https://assets.mide.io/blog/2017-11-11/rct-setup-1.png)
+[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/rct-setup-1.png)](https://assets.mide.io/blog/2017-11-14/rct-setup-1.png)
 
-[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-11/rct-setup-2.png)](https://assets.mide.io/blog/2017-11-11/rct-setup-2.png)
+[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/rct-setup-2.png)](https://assets.mide.io/blog/2017-11-14/rct-setup-2.png)
 
-[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-11/rct-install-3.png)](https://assets.mide.io/blog/2017-11-11/rct-install-3.png)
+[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/rct-install-3.png)](https://assets.mide.io/blog/2017-11-14/rct-install-3.png)
 
 When you click "Exit", Winery will finish some cleanup work and ask you what `.exe` you want to load by default. Likely the default is okay, just make sure it's set to `RCT.exe`. Then click "OK" and "Quit".
 
-[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-11/winery-select-exe.png)](https://assets.mide.io/blog/2017-11-11/winery-select-exe.png)
+[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/winery-select-exe.png)](https://assets.mide.io/blog/2017-11-14/winery-select-exe.png)
 
 In order to get the resolution set to something reasonable, open a game, go into Options, set to Windowed mode and then quit. On the next launch, it will be windowed and you can resize to your liking.
 
@@ -104,16 +104,16 @@ If the Winery icon does not represent RCT to you, simply set your own image for 
 
 Find the RollerCoaster Tycoon Launcher, right click it and select "Get Info". (You can also press `CMD+i`).
 
-[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-11/get-info-1.png)](https://assets.mide.io/blog/2017-11-11/get-info-1.png)
+[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/get-info-1.png)](https://assets.mide.io/blog/2017-11-14/get-info-1.png)
 
 In the upper left corner of that window, you'll see a small version of the Winery icon. Click it, and then press `CMD+v` to paste.
 
-[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-11/get-info-2.png)](https://assets.mide.io/blog/2017-11-11/get-info-2.png)
+[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/get-info-2.png)](https://assets.mide.io/blog/2017-11-14/get-info-2.png)
 
 That launcher can now be dragged onto your dock to quickly open the game.
 
-[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-11/desktop-screenshot-1.png)](https://assets.mide.io/blog/2017-11-11/desktop-screenshot-1.png)
+[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/desktop-screenshot-1.png)](https://assets.mide.io/blog/2017-11-14/desktop-screenshot-1.png)
 
 You can now play the game like it's 1999!
 
-[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-11/desktop-screenshot-2.png)](https://assets.mide.io/blog/2017-11-11/desktop-screenshot-2.png)
+[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/desktop-screenshot-2.png)](https://assets.mide.io/blog/2017-11-14/desktop-screenshot-2.png)
