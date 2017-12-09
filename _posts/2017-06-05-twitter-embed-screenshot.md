@@ -43,7 +43,7 @@ I have a [daily build job](https://travis-ci.org/mide/twitter-timeline-to-png) (
 - [Twitter's Privacy Policy for Embedded Widgets](https://support.twitter.com/articles/20175256)
 - [GitHub Project](https://github.com/mide/twitter-timeline-to-png)
 - [TravisCI Build](https://travis-ci.org/mide/twitter-timeline-to-png)
-- [Non-Cached Result](http://us-west-2-io-mide-assets.s3-website-us-west-2.amazonaws.com/common/twitter/twitter-timeline.png)
+- [Non-Cached Result](http://io-mide-assets.s3-website-us-west-2.amazonaws.com/common/twitter/twitter-timeline.png)
 - [My Twitter (@cranstonide)](https://www.twitter.com/cranstonide)
 
 ## Future Thoughts

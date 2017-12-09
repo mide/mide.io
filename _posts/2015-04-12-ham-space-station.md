@@ -12,8 +12,8 @@ The transmissions were sent from `RS0ISS`, the Russian call sign on the space st
 
 I used the following hardware to listen to the space station from my back yard.
 
-- Baofung UV-5R ([$30 on Amazon](https://amzn.com/B007H4VT7A))
-- A SMA Female to UFH Adapter ([$3 on Amazon](https://amzn.com/B00ATEDHXE))
+- Baofung UV-5R ([$30 on Amazon](http://a.co/4zu4FGV))
+- A SMA Female to UFH Adapter ([$3 on Amazon](http://a.co/8QF9eQI))
 - Android phone for decoding (other software would have worked, too)
 - Homemade Two Meter Yagi (See below for parts list)
 - Coax
