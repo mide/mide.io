@@ -43,6 +43,8 @@ matrix:
 
 notifications:
   pushover:
+    on_success: change
+    on_failure: always
     api_key:
       secure: "1JPv8qQq81K/tMKlEnO485EKceQc6wwcOaVL2qKiduftNwTqMdLFGE+G1sAc6c+3NZwCdkTU2jvPKILKFNeMPmX2DPCrKDuFVWe7LwTKt9L/zTMybqD7z4ioGbJuX5qinBhRha8mLH1qTR78LVwLNZAW1+eTUYeiHuc/ppOmwqoU22OTiWQdvQHaUMU64dmAQ9HoSJ6yHVohDtmEDp3y+0ORhsf8y9mebnsDWy9fDrdMgtP3s42BRfITcJ+iX5S3cPypZ59OQHQ7111Ctv/2UDt6QAupIAdYjDOrgYG7BXulX3ijxg3bzKduKLcUxYkccMfsF8KBU8OHI02ZxmZ6Sw8ULbEefgZCmTDxmflGo3Sstos/3wZxab0CJz/0zhCBDxeHZHzzq58Z6Vkey4niSxVAGtXe5oQD/PH7xo6BY/qLEMalRSwok2HLYPmPucvtUGFfit7QBXt+8k4lM8Uet+SSnDl8hkUObLs8Gt/QZrrKGgIaL9Ke/dH6IReRVIKAaXNw8T6O3yeLfoGQIPw6hNqqlWj3lEAfzdFrqMk+TOBCogz7Mb4HNoblzwHrdoZY64L+LEq+jPaGkNDVOi3GhWvOR8TkEjZOK+9iNzX3et/TgjKyIVsfJu9fa0T+3k7aMMIxTJjmD1AnOz636EhJH0OoBhiPMnowmUGTwUHM2pY="
     users:
