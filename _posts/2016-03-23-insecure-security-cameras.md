@@ -50,7 +50,7 @@ I was unable to find a reasonably priced DVR unit that had good multi-platform s
 
 For a while, I seriously considered reverse engineering the protocol and writing my own client. Apparently I wasn't the only one that had thoughts on the matter - [Damien Walsh](http://damow.net/digging-into-dvrs/) and [Console Cowboys](http://console-cowboys.blogspot.com/2013/01/swann-song-dvr-insecurity.html) both did some research into the workings of these systems under the hood. These are both great articles if you're interested in learning more.
 
-Walsh wrote a very complete documentation of the protocol, which you can find [here](https://cl.ly/2W0W2R150a2Z). In his blog he writes:
+Walsh wrote a very complete documentation of the protocol, which you can find [here](https://damow.net/digging-into-dvrs/). In his blog he writes:
 
 > ... what you should take away from this is that these things are cheap. They behave as such. The UI is shoddy at best, the compatibility and openness of the standards employed are atrocious and the security is, frankly, awful...
 
