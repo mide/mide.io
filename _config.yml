@@ -27,7 +27,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-tidy
-  - jekyll-toc
   - jekyll-twitter-collection
 
 defaults:

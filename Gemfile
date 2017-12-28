@@ -6,7 +6,6 @@ source 'https://rubygems.org' do
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'jekyll-tidy'
-  gem 'jekyll-toc'
   gem 'jekyll-twitter-collection'
   gem 'rake'
   gem 'redcarpet'
