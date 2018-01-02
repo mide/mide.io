@@ -27,7 +27,7 @@ Recent Tweets by [@cranstonide](https://twitter.com/cranstonide):
 <div class="tweets">
 {% for tweet in site.data.tweets %}
   <div class="tweet">
-    <div class="text">{{ tweet['html_text'] }}</div>
+    <div class="text" data-proofer-ignore>{{ tweet['html_text'] }}</div>
     <div class="date"><a href="{{tweet['url']}}">{{tweet['date_formatted']}}</a></div>
   </div>
 {% endfor %}
