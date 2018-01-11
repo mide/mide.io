@@ -20,7 +20,7 @@ addons:
 
 script:
   - bundle exec rake build
-  - bundle exec rake test:$TEST_SUITE
+  - bundle exec rake $RAKE_TASK
 
 deploy:
   provider: s3
@@ -32,19 +32,21 @@ deploy:
   local_dir: _site
   on:
     branch: master
-    condition: $TEST_SUITE = local
+    condition: $RAKE_TASK = test:local
 
 env:
   matrix:
-    - TEST_SUITE=local
-    - TEST_SUITE=remote
+    - RAKE_TASK=test:local
+    - RAKE_TASK=test:remote
+    - RAKE_TASK=lint:ruby
+    - RAKE_TASK=lint:yaml
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 matrix:
   fast_finish: true
   allow_failures:
-    - env: TEST_SUITE=remote
+    - env: RAKE_TASK=test:remote
 
 notifications:
   pushover:
