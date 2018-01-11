@@ -10,4 +10,5 @@ source 'https://rubygems.org' do
   gem 'rake'
   gem 'redcarpet'
   gem 'rubocop', require: false
+  gem 'yaml-lint', require: false
 end

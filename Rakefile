@@ -37,16 +37,23 @@ file '_site/index.html' do
   Jekyll::Commands::Build.process(profile: true)
 end
 
-namespace 'test' do
-  RuboCop::RakeTask.new(:ruby_style).tap do |task|
+namespace 'lint' do
+  task everything: %i[ruby yaml]
+
+  RuboCop::RakeTask.new(:ruby).tap do |task|
     task.options = %w[--fail-fast --extra-details]
   end
 
-  task everything: %i[html_local html_remote ruby_style]
-  task local: %i[html_local ruby_style]
-  task remote: %i[html_remote]
+  task yaml: %i[] do
+    %w[*.yml *.yaml].each do |extension|
+      files = Dir.glob(extension, File::FNM_DOTMATCH)
+      sh "yaml-lint #{files.join(' ')}" unless files.empty?
+    end
+  end
+end
 
-  task html_remote: %i[build] do
+namespace 'test' do
+  task remote: %i[build] do
     opts = {
       cache: { timeframe: '1w' },
       external_only: true,
@@ -58,7 +65,7 @@ namespace 'test' do
     run_html_proofer!(opts)
   end
 
-  task html_local: %i[build] do
+  task local: %i[build] do
     opts = {
       check_html: true,
       check_img_http: true,
