@@ -45,10 +45,8 @@ namespace 'lint' do
   end
 
   task yaml: %i[] do
-    %w[*.yml *.yaml].each do |extension|
-      files = Dir.glob(extension, File::FNM_DOTMATCH)
-      sh "yaml-lint #{files.join(' ')}" unless files.empty?
-    end
+    files = Dir.glob('*.y*ml', File::FNM_DOTMATCH)
+    sh "yaml-lint #{files.join(' ')}" unless files.empty?
   end
 end
 
