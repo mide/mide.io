@@ -18,35 +18,50 @@ addons:
       - ca-certificates
       - libcurl4-openssl-dev
 
-script:
-  - bundle exec rake build
-  - bundle exec rake $RAKE_TASK
+jobs:
+  include:
+    - stage: "Lint and Test"
+      env:
+        - CMD="rake lint:ruby"
+      script: bundle exec $CMD
 
-deploy:
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY_ID
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
-  bucket: $AWS_S3_BUCKET
-  region: $AWS_S3_REGION
-  skip_cleanup: true
-  local_dir: _site
-  on:
-    branch: master
-    condition: $RAKE_TASK = test:local
+    - stage: "Lint and Test"
+      env:
+        - CMD="rake lint:yaml"
+      script: bundle exec $CMD
 
-env:
-  matrix:
-    - RAKE_TASK=test:local
-    - RAKE_TASK=test:remote
-    - RAKE_TASK=lint:ruby
-    - RAKE_TASK=lint:yaml
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+    - stage: "Lint and Test"
+      env:
+        - CMD="rake test:local"
+      script: bundle exec $CMD
+
+    - stage: "Lint and Test"
+      env:
+        - CMD="rake test:remote"
+      script: bundle exec $CMD
+
+    - stage: deploy
+      env:
+        - CMD="jekyll build"
+      script: bundle exec $CMD
+      deploy:
+        provider: s3
+        access_key_id: $AWS_ACCESS_KEY_ID
+        secret_access_key: $AWS_SECRET_ACCESS_KEY
+        bucket: $AWS_S3_BUCKET
+        region: $AWS_S3_REGION
+        skip_cleanup: true
+        local_dir: _site
+        on:
+          branch: master
+
+#   global:
+#     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 matrix:
   fast_finish: true
   allow_failures:
-    - env: RAKE_TASK=test:remote
+    - env: CMD="rake test:remote"
 
 notifications:
   pushover:
