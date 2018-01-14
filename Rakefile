@@ -27,6 +27,11 @@ def run_html_proofer!(opts)
   HTMLProofer.check_directory('./_site', opts).run
 end
 
+def run_command(cmd)
+  puts "Running '#{cmd}'"
+  sh cmd
+end
+
 task build: ['_site/index.html']
 
 task :clean do
@@ -46,7 +51,16 @@ namespace 'lint' do
 
   task yaml: %i[] do
     files = Dir.glob('*.y*ml', File::FNM_DOTMATCH)
-    sh "yaml-lint #{files.join(' ')}" unless files.empty?
+    run_command "yaml-lint #{files.join(' ')}" unless files.empty?
+  end
+
+  task markdown: %i[] do
+    inspect_directories = Dir.glob('**/*.md')
+    inspect_directories.reject! { |dir| dir.start_with? 'vendor/' }
+    puts "Looking at #{inspect_directories.join ', '}"
+    inspect_directories.each do |directory|
+      run_command "mdl -s 'markdown_lint_style.rb' #{directory}"
+    end
   end
 end
 

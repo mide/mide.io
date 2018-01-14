@@ -8,7 +8,7 @@ date:   2015-10-19 19:30:00
 
 I'm the Monday night net control for *George's Old Timer's Net*, a ham radio net that's been going on for years now. Because a net might sound complicated to new comers, I wanted to offer a resource to explain some of it.
 
-### What is an Amateur Radio Net?
+### What is an Amateur Radio Net
 
 A ham radio net is nothing more than the chat room of the airwaves, but because of the nature of transmissions, only one person can talk at a time. People who are in the position of *Net Control* dictate whose turn it is to speak. This reduces the chances of multiple people talking simultaneously and preventing either of their transmissions from being heard.
 
@@ -18,7 +18,7 @@ Informal nets, like George's Old Timer's Net, operate with a little more flexibi
 
 Regardless of the type of net, formal or informal, there is still a net control station (NCS) that dictates whose turn it is to talk.
 
-### What is George's Old Timer's Net?
+### What is George's Old Timer's Net
 
 George's Old Timer's Net is an informal ham radio net that meets most evenings at 7:30 PM on the [`W1BIM`](http://www.cmara.org) repeater in Paxton, MA. Being an informal net, we do not meet with the purpose of passing formal written traffic, or emergency communications - we just check in to chat.
 

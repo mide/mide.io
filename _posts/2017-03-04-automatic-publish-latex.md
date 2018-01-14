@@ -89,7 +89,7 @@ However, if your project is already in git and you're about to make it public, r
 
 I have used the following `.travis.yml`. I've opted to break some of the commands into scripts for better readability. Those scripts live in the `/scripts/` directory in my project. You can read more about the `.travis.yml` file in the [Travis CI docs](https://docs.travis-ci.com/). There are many options (far too many to describe here) so tweak the examples to fit your needs.
 
-```
+```bash
 .travis.yml
 ```
 
@@ -118,7 +118,7 @@ deploy:
 
 I have the following `scripts/install.sh` defined. This file is referenced by the `install` key above.
 
-```
+```bash
 scripts/install.sh
 ```
 
@@ -137,7 +137,7 @@ sudo apt-get install -y --no-install-recommends \
 
 I have the following `scripts/build.sh` defined. The file is referenced by the `script` key above.
 
-```
+```bash
 scripts/build.sh
 ```
 

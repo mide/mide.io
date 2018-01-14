@@ -5,6 +5,7 @@ date:   2017-11-14 17:00:00
 ---
 
 ## About
+
 [RollerCoaster Tycoon](https://en.wikipedia.org/wiki/RollerCoaster_Tycoon_(video_game)) is a simulation game where players are tasked with developing and maintaining a theme park; they must keep the park profitable and visitors happy. I remember a middle school friend had the game (I was 9 when this came out) and I was immediately engrossed. I can even remember going to the store with my grandmother to pick out the CD off the shelf, and the overwhelming excitement of bringing it home.
 
 This game was a part of my childhood, and with the recent release of RollerCoaster Tycoon Classic (on [Steam](http://store.steampowered.com/app/683900/RollerCoaster_Tycoon_Classic/), [iOS](https://itunes.apple.com/us/app/rollercoaster-tycoon-classic/id1113736426?mt=8), and [Android](https://play.google.com/store/apps/details?id=com.atari.mobile.rctc&hl=en)), I wanted to revisit that fun. When I installed the game, it was _close_, but not quite right; there were little differences that I wasn't happy with. So I set out to install the original copy (I still have the original CD's along with a backup).
@@ -18,9 +19,11 @@ My first attempt was to install Windows XP inside [VirtualBox](https://www.virtu
 [![Screenshot of VirtualBox](https://assets.mide.io/blog/2017-11-14/rct-in-virtualbox.png)](https://assets.mide.io/blog/2017-11-14/rct-in-virtualbox.png)
 
 ## Investigating OpenRCT
+
 The [OpenRCT Project](https://openrct2.org/) is an open source re-implementation of RollerCoaster Tycoon 2 (not 1, as I wanted). Many people want the additional features of RCT2 over RCT1, but I specifically was going for the nostalgia. I think the RCT2 project looks awesome and would recommend looking at it.
 
 ## Running in Wine / Wineskin
+
 I found a [great YouTube tutorial](https://www.youtube.com/watch?v=axC8A5suhQw) showing how to install RollerCoaster Tycoon via Wineskin. This tutorial used the [GOG distribution](https://www.gog.com/game/rollercoaster_tycoon_deluxe) of the game. I was hesitant to buy the game, since I already own it, but when I saw "DRM-FREE" I was sold.
 
 [WineHQ](https://www.winehq.org/) does a great job of explaining what Wine is:
@@ -38,8 +41,8 @@ brew cask install wineskin-winery
 
 ![Screenshot of Winescreen Winery](https://assets.mide.io/blog/2017-11-14/homebrew-wineskin-winery.png)
 
-
 ### Obtain Installation Medium
+
 I had the original CD's, and digital backups of those, but [GOG](https://www.gog.com/game/rollercoaster_tycoon_deluxe) sells RollerCoaster Tycoon as a single installer, which looked simpler for me to install. I'm sure you could use the CD's without too many modifications to this guide.
 
 ### Configure Winery

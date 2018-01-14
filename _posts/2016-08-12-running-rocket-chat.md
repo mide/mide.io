@@ -176,7 +176,7 @@ To give you an idea of the use, here is a graph showing the number of messages s
 
 [![Graph showing our utilization](https://assets.mide.io/blog/2016-08-12/messages-sent-over-time.png)](https://assets.mide.io/blog/2016-08-12/messages-sent-over-time.png)
 
-## Thank You!
+## Thank You
 
 I'd like to extend my deep gratitude to the [Rocket.Chat development team](https://rocket.chat/team) for working on what I believe to be one of the best open source projects.
 

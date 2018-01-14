@@ -40,7 +40,7 @@ Below is a picture of the completed project so you can zoom in. The Arduino is o
 
 [![Finished Project](https://assets.mide.io/blog/2017-04-12/led-project-finished.jpg)](https://assets.mide.io/blog/2017-04-12/led-project-finished.jpg)
 
-**Notes:**
+### Notes
 
 - I am not an electrical engineer, so I have no doubt my wiring may make some people cringe. Perhaps I could have used a breadboard to clean things up, but it works.
 - The two resistors are critical in addressing floating pins. Without them, you'll find the Arduino registering a constantly changing value when you expect the pin to be `LOW`.

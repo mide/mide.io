@@ -22,5 +22,5 @@ I was the Monday night net control for the *George's Old Timer's Net* from March
 
 I participate in the following clubs:
 
-* *(Club Secretary)* [Central Massachusetts Amateur Radio Association](http://www.cmara.org) (CMARA)
-* *(Member)* [Worcester Emergency Communications Team](http://www.wect.org/) (WECT)
+- *(Club Secretary)* [Central Massachusetts Amateur Radio Association](http://www.cmara.org) (CMARA)
+- *(Member)* [Worcester Emergency Communications Team](http://www.wect.org/) (WECT)

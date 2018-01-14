@@ -15,12 +15,12 @@ My grandfather's time in the Navy was not his only accomplish nor was it what de
 ### Background Excerpt from RIHS Library
 
 > Gustavus Reed Ide, Jr. was born in East Providence, RI on February 28, 1919 the son of Gustavus Reed Ide and Florence. He was an avid baseball and tennis player participating in the amateur baseball league and a member of the tennis team in college. He graduated from East Providence High School in 1935 and then attended Rhode Island State College (University of Rhode Island), graduating in June 1940 with a Bachelor of Science degree in Mechanical Engineering. During the summer of 1937 he began his working life as a cashier at the Narragansett Race Track selling and cashing racing tickets. The next two summers he worked on a surveying crew for the Waterman Engineering Company during 1938 and for the Rhode Island State Board of Public Roads in 1939. After he graduated from college he was a student engineer in training with the New England Power Association during Aug 1940 to April 1942 learning how to lay out and service electric power lines.
-
+>
 > Gustavus joined the Navy Reserve in March 1942 and was sent to the Naval Training School (Indoctrination) at Notre Dame University in Notre Dame, IN for a six week program. His class was trained specifically for shore duty and so did not endure the regular three month "boot camp." Gustavus was then sent to torpedo school in Newport, RI to learn how to supply torpedoes to the troops. Because of the shortage of naval officers, Gustavus was instead called up for active duty aboard a brand new destroyer, the USS Glennon (DD-620). So, in October of 1942, he went to sea as the Torpedo Officer without any training or even basic sea knowledge such as which side of the boat was starboard. He learned quickly and was one of the officers selected to serve watches as Officer of the Deck during the invasion of Utah Beach on D-Day, June 6, 1944. The stern of the USS Glennon hit a mine on June 8 but remained afloat until June 10 when it was sunk by enemy fire.
-
+>
 > Gustavus returned unharmed to the United States and was sent to Washington, D.C. for a three month Gunnery and Ordnance School during September - November, 1944. He then became the Gunnery Officer on the destroyer USS Mervine (DD-489) which was recommissioned as a destroyer mine sweeper (DMS-31) in early 1945. Gustavus was released from active duty in March 1946 and he returned to his original career path as an electrical engineer. He worked for the Central Massachusetts Electric Company in Palmer, MA as a Distribution Engineer starting in April 1947. That public utility then became the Worcester County Electric Company. Gustavus was married with one child by June 1949 and his second child was born in 1951 or 1952. He and his family lived in Warren, MA for many years, and spent the rest of their time in Westborough, MA.
 
-> ([Source](http://www.rihs.org/mssinv/MSS1130.htm))
+([Source](http://www.rihs.org/mssinv/MSS1130.htm))
 
 ## Video Interview
 
@@ -33,7 +33,7 @@ Your browser does not support the video tag. <a href="https://assets.mide.io/blo
 
 ## Images
 
-_You can click the image to go to their source. Some sources have additional context._
+You can click the image to go to their source. Some sources have additional context.
 
 ![Ide In uniform](https://assets.mide.io/blog/2017-05-29/ide-gustavus-in-uniform.jpg)
 

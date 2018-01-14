@@ -27,6 +27,11 @@ jobs:
 
     - stage: "Lint and Test"
       env:
+        - CMD="rake lint:markdown"
+      script: bundle exec $CMD
+
+    - stage: "Lint and Test"
+      env:
         - CMD="rake lint:yaml"
       script: bundle exec $CMD
 
