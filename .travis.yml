@@ -2,11 +2,6 @@ language: ruby
 rvm:
   - 2.5.0
 
-# Workaround for Ruby 2.5.0 with Travis. Fix should come soon.
-before_install:
-  - gem update --system
-  - gem update bundler
-
 cache:
   bundler: true
   directories:
