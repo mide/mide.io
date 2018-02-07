@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## {{site.name_long}}
+# {{site.name_long}}
 
 Hi there!
 
