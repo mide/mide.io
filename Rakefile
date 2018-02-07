@@ -9,6 +9,8 @@ require 'rubocop/rake_task'
 def ignored_domains
   @_ignored_domains ||= %(
     localhost
+    donottrack-doc.com
+    www.amazon.com
   ).lines.map(&:strip).reject(&:empty?).sort.freeze
 end
 
