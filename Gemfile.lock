@@ -70,7 +70,7 @@ GEM
       htmlbeautifier
       htmlcompressor
       jekyll
-    jekyll-toc (0.5.0)
+    jekyll-toc (0.5.2)
       nokogiri (~> 1.6)
     jekyll-twitter-collection (0.0.4)
       sanitize (~> 4.5)
@@ -93,7 +93,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     mixlib-cli (1.7.0)
-    mixlib-config (2.2.4)
+    mixlib-config (2.2.5)
     multipart-post (2.0.0)
     naught (1.1.0)
     nokogiri (1.8.2)
