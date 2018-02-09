@@ -6,7 +6,7 @@ layout: default
 
 <details id="table-of-contents">
   <summary>Content Navigation</summary>
-  Currently broken... See <a href="https://github.com/mide/mide.io/issues/19">GitHub issue #19</a>.
+  {{ content | toc_only }}
 </details>
 
-{{ content }}
+{{ content | inject_anchors }}
