@@ -1,0 +1,5 @@
+# I disagree with this cop. I feel that @_var_name is better for memoization
+# than @var_name, to make it very clear you don't want people to use that
+# variable directly. Maybe this is a page out of my Python book.
+Naming/MemoizedInstanceVariableName:
+  Enabled: False
