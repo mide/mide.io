@@ -84,7 +84,7 @@ On October 21, 2016 there was an extremely large [DDoS attack against Dyn](https
 
 Because of the nature of the attack (compromised devices inside the network), I immediately disconnected the physical ethernet from the device. Because of personal time constraints, we had to run approximately a week without remote access to the cameras. The DVR remained on and recorded, we just couldn't view it from our devices.
 
-### Our Longterm Solution
+### Our Short-term Solution
 
 I was hoping that the home router (this is at a family member's house) would have the ability to firewall off certain devices from the internet. They have a stock [Verizon FiOS](https://en.wikipedia.org/wiki/Verizon_Fios) router, which thankfully has the ability to block access to the internet for selective devices. After some testing, I confirmed the options did what we needed.
 
@@ -92,4 +92,6 @@ I was hoping that the home router (this is at a family member's house) would hav
 
 We blocked all internet access to/from the DVR and to/from the VNC server. That only allows connections from or through devices inside the network, like our SSH server. All of our functionality has been restored and at zero additional cost. In hindsight, I should have turned on these options sooner.
 
+### Our Long-term Solution
 
+We set up a [Raspberry PI VPN](http://www.pivpn.io/) and purchased a [HDMI to RTSP](http://a.co/9eUbg3a) device. Between the two, we now have a secure way to remote into the network, and an easy way to view the cameras. We no longer have a dependency on Windows, so I was able to shut that server off. Adding these pieces made things a little easier to maintain and the system consumes a little less energy.
