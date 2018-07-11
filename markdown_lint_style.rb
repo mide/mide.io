@@ -44,5 +44,4 @@ exclude_rule 'MD033'
 exclude_rule 'MD013'
 
 exclude_rule 'MD041' # First line in file should be a top level header
-exclude_rule 'MD039' # BUG
 exclude_rule 'MD002' # jsut for index
