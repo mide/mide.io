@@ -3,3 +3,8 @@
 # variable directly. Maybe this is a page out of my Python book.
 Naming/MemoizedInstanceVariableName:
   Enabled: False
+
+# I do not find that block length impacts readability to the point that I need
+# to worry about it, so I'll disable that check.
+Metrics/BlockLength:
+  Enabled: False

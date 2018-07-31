@@ -15,29 +15,34 @@ addons:
 
 jobs:
   include:
-    - stage: "Lint and Test"
+    - stage: "Lint Checks"
       env:
         - CMD="rake lint:ruby"
       script: bundle exec $CMD
 
-    - stage: "Lint and Test"
+    - stage: "Lint Checks"
       env:
         - CMD="rake lint:markdown"
       script: bundle exec $CMD
 
-    - stage: "Lint and Test"
+    - stage: "Lint Checks"
       env:
         - CMD="rake lint:yaml"
       script: bundle exec $CMD
 
-    - stage: "Lint and Test"
+    - stage: "Local Tests"
       env:
-        - CMD="rake test:local"
+        - CMD="rake test:html"
       script: bundle exec $CMD
 
-    - stage: "Lint and Test"
+    - stage: "Remote Tests"
       env:
-        - CMD="rake test:remote"
+        - CMD="rake remote:links"
+      script: bundle exec $CMD
+
+    - stage: "Remote Tests"
+      env:
+        - CMD="rake remote:exif"
       script: bundle exec $CMD
 
     - stage: deploy

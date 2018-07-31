@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
-require 'jekyll'
+require 'colorize'
+require 'exifr/jpeg'
 require 'html-proofer'
+require 'jekyll'
+require 'net/http'
 require 'rubocop/rake_task'
 
 # Returns a list of domains, in plain string format. Leave off 'https://www.'
@@ -32,6 +35,11 @@ def run_command(cmd)
   sh cmd
 end
 
+def markdown_files
+  md_files = Dir.glob('**/*.md')
+  md_files.sort.reject { |dir| dir.start_with? 'vendor/' }
+end
+
 task build: ['_site/index.html']
 
 task :clean do
@@ -55,17 +63,48 @@ namespace 'lint' do
   end
 
   task markdown: %i[] do
-    inspect_directories = Dir.glob('**/*.md')
-    inspect_directories.reject! { |dir| dir.start_with? 'vendor/' }
-    puts "Looking at #{inspect_directories.join ', '}"
-    inspect_directories.each do |directory|
+    puts "Looking at #{markdown_files.join ', '}"
+    markdown_files.each do |directory|
       run_command "mdl -s 'markdown_lint_style.rb' #{directory}"
     end
   end
 end
 
-namespace 'test' do
-  task remote: %i[build] do
+namespace 'remote' do
+  task exif: %i[] do
+    failed_count = 0
+    markdown_files.each do |file|
+      puts "Inspecting Markdown file '#{file}'..."
+      images = File.read(file).scan(%r{https?:\/\/[^\s\"\)]+\.jpe?g}).uniq
+      images.each do |image_url|
+        # Download File, Write to Disk
+        url = URI.parse(image_url)
+        request = Net::HTTP::Get.new(url.request_uri)
+        http = Net::HTTP.new(url.host, url.port)
+        http.use_ssl = (url.scheme == 'https')
+        image_content = http.request(request).body
+        File.write('/tmp/mide_io_test.jpg', image_content)
+
+        # Examine EXIF Data
+        image = EXIFR::JPEG.new('/tmp/mide_io_test.jpg')
+
+        if image.exif?
+          failed_count += 1
+          puts "[#{'WARN'.yellow}] The image #{image_url} defines the " \
+            "following #{image.to_hash.keys.count} EXIF properties: " \
+            "#{image.to_hash.keys.sort.join(', ')}"
+        else
+          puts "[#{'PASS'.green}] The image #{image_url} does not define any " \
+            'EXIF data.'
+        end
+      end
+    end
+    if failed_count.positive?
+      raise "Found #{failed_count} files with EXIF data. Expected zero."
+    end
+  end
+
+  task links: %i[build] do
     opts = {
       cache: { timeframe: '1w' },
       external_only: true,
@@ -76,8 +115,10 @@ namespace 'test' do
     }
     run_html_proofer!(opts)
   end
+end
 
-  task local: %i[build] do
+namespace 'test' do
+  task html: %i[build] do
     opts = {
       check_html: true,
       check_img_http: true,

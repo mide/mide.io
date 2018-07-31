@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org' do
+  gem 'colorize', require: false
+  gem 'exifr', require: false
   gem 'html-proofer', require: false
   gem 'jekyll'
   gem 'jekyll-feed'
