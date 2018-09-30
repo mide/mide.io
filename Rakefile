@@ -12,6 +12,7 @@ require 'rubocop/rake_task'
 def ignored_domains
   @_ignored_domains ||= %(
     localhost
+    natickvets.org
   ).lines.map(&:strip).reject(&:empty?).sort.freeze
 end
 
