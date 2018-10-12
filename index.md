@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: page
+title: !site.name_long!
+hide_from_menu: true
+sitemap: false
 ---
-
-# {{site.name_long}}
 
 Hi there!
 
