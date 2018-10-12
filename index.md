@@ -2,7 +2,6 @@
 layout: page
 title: !site.name_long!
 hide_from_menu: true
-sitemap: false
 ---
 
 Hi there!
