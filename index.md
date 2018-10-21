@@ -1,6 +1,5 @@
 ---
-layout: page
-title: !site.name_long!
+layout: index
 hide_from_menu: true
 ---
 
