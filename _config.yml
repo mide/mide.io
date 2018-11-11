@@ -30,7 +30,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-tidy
   - jekyll-toc
-  - jekyll-twitter-collection
 
 defaults:
   - scope:

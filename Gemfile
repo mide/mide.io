@@ -9,10 +9,11 @@ source 'https://rubygems.org' do
   gem 'jekyll-sitemap'
   gem 'jekyll-tidy'
   gem 'jekyll-toc'
-  gem 'jekyll-twitter-collection'
   gem 'mdl', require: false
   gem 'rake'
   gem 'redcarpet'
   gem 'rubocop', require: false
+  gem 'sanitize'
+  gem 'twitter'
   gem 'yaml-lint', require: false
 end
