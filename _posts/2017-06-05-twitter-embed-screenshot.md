@@ -43,7 +43,7 @@ I have a [daily build job](https://travis-ci.org/mide/twitter-timeline-to-png) (
 - [Twitter's Privacy Policy for Embedded Widgets](https://support.twitter.com/articles/20175256)
 - [GitHub Project](https://github.com/mide/twitter-timeline-to-png)
 - [TravisCI Build](https://travis-ci.org/mide/twitter-timeline-to-png)
-- [Non-Cached Result](http://io-mide-assets.s3-website-us-west-2.amazonaws.com/common/twitter/twitter-timeline.png)
+- [Result](https://assets.mide.io/common/twitter/twitter-timeline.png)
 - [My Twitter (@cranstonide)](https://www.twitter.com/cranstonide)
 
 ## Future Thoughts
@@ -56,6 +56,12 @@ I have a [daily build job](https://travis-ci.org/mide/twitter-timeline-to-png) (
 
 ### Jekyll Generator
 
-I've switched my contact page to use a [custom Jekyll generator](https://github.com/mide/jekyll-twitter-collection), meaning that the above mentioned image is no longer there. Together with a [nightly build](https://travis-ci.org/mide/mide.io), this generator puts the tweets in the page without including an image, and it now matches my theme. It still matches my goal of privacy, but I feel this was a better solution than the image, hence the replacement.
+I've switched my contact page to use a [custom Jekyll generator](https://github.com/mide/mide.io/blob/a0c32d533d4ac3d9ce8c8f8574b724f2d9dad9ea/_plugins/twitter_collection.rb), meaning that the above mentioned image is no longer there. Together with a [nightly build](https://travis-ci.org/mide/mide.io), this generator puts the tweets in the page without including an image, and it now matches my theme. It still matches my goal of privacy, but I feel this was a better solution than the image, hence the replacement.
 
 I'd love to clean up my code and release the generator as an open source plugin. It needs a little work before it's ready, but that's the goal.
+
+### Revert to Image
+
+As of July 2018, Twitter has changed their terms and conditions, and while I feel like I feel well within their acceptable use, There are many new terms that I may or may not meet. I unfortunately do not have the time to process and keep up with the changes to their [Display Requirements](https://developer.twitter.com/en/developer-terms/display-requirements) nor [Developer Terms](https://developer.twitter.com/en/developer-terms/agreement). Additionally, Twitter now requires you to [Apply for a Developer Account](https://developer.twitter.com/en/apply/user), so I can't just use a personal API key anymore.
+
+I would still like to include my Twitter feed in my website, but I don't want to deal with the overhead above. So I am adding back the original image and removing all the API logic.

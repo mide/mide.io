@@ -20,13 +20,6 @@ While I'm not huge into social networks, there are a few that I maintain a prese
 
 ### Twitter Feed
 
-Recent Tweets by [@cranstonide](https://twitter.com/cranstonide):
+What is this? In short, it's a recent screenshot of my Twitter timeline. [Read about it here.]({% post_url 2017-06-05-twitter-embed-screenshot %})
 
-<div class="tweets">
-{% for tweet in site.data.tweets %}
-  <div class="tweet">
-    <div class="text" data-proofer-ignore>{{ tweet['html_text'] }}</div>
-    <div class="date"><a href="{{tweet['url']}}">{{tweet['date_formatted']}}</a></div>
-  </div>
-{% endfor %}
-</div>
+[![Twitter Screenshot](https://assets.mide.io/common/twitter/twitter-timeline.png)](https://twitter.com/cranstonide)
