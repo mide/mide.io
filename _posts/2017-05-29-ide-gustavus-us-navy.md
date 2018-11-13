@@ -8,8 +8,6 @@ date:   2017-05-29 07:30:00
 
 My grandfather's name was Gustavus Reed Ide, Jr.; some of you may have called him Gus, but I called him Grandpa.
 
-[![Ide with his Family](https://assets.mide.io/blog/2017-05-29/ide-with-his-family.jpg)](https://assets.mide.io/blog/2017-05-29/ide-with-his-family.jpg)
-
 My grandfather's time in the Navy was not his only accomplish nor was it what defined him. This entry is just a collection of all the material I could find on his time in the Navy and this page serves as a central linking hub for it all. There are plenty of great write-ups in the Links and References section below.
 
 ### Background Excerpt from RIHS Library
