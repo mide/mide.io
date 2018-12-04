@@ -42,7 +42,7 @@ I have a fairly beefy computer, and I couldn't do anything while the client was 
 
 I searched to see if there was a better DVR unit available. I found the `Hikvision DS-7208HVI-SV` that advertised support for Mozilla Firefox - which led me to believe it used either a Flash or HTML5 video player that could be cross platform. In an instant, we bought the vague promise of multi-browser support.
 
-Come to find out, it used [Firefox IE Tab](https://addons.mozilla.org/en-US/firefox/addon/ie-tab/), an extension that uses the native Internet Explorer libraries to render a tab, meaning it still had a dependency on Windows and ActiveX controls. I returned that DVR in a heartbeat.
+Come to find out, it used "Firefox IE Tab", an extension that uses the native Internet Explorer libraries to render a tab, meaning it still had a dependency on Windows and ActiveX controls. I returned that DVR in a heartbeat. _(Update: As of December 2018, IE Tab has been removed from the Firefox Extention List)._
 
 I was unable to find a reasonably priced DVR unit that had good multi-platform support and used open standards. I am sure there are enterprise level products that meet these requirements, but they're significantly outside our price point.
 
