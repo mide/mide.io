@@ -168,7 +168,7 @@ There is a hidden cost of maintenance; I haven't spent a lot of time maintaining
 
 One nice feature of hosting the service on your own hardware, is that you have complete control over the data. You can define exactly how you want people to access your system.
 
-You can run your own [HipChat Server](https://www.hipchat.com/server) which grants you the ability to have better control over your data, but you still need to pay steep licensing fees ($1,800 for 25 users for one year).
+You can run your own [HipChat Server](https://en.wikipedia.org/wiki/HipChat) which grants you the ability to have better control over your data, but you still need to pay steep licensing fees ($1,800 for 25 users for one year).
 
 ## My Family's Utilization
 
@@ -183,3 +183,9 @@ I'd like to extend my deep gratitude to the [Rocket.Chat development team](https
 While time can be a precious commodity, I try to contribute to the project and hopefully this blog post will give the project a little more publicity. If Rocket.Chat seems like something neat to you, consider running it to share the love with friends.
 
 Great job everyone, keep up the awesome work!
+
+## Updates
+
+### HipChat Unavailable
+
+As of July 26, 2018, HipChat is shutting down and pushing existing users over to Slack. You can read [their announcement](https://www.atlassian.com/blog/announcements/new-atlassian-slack-partnership) for more details.
