@@ -60,7 +60,7 @@ You can click the image to go to their source. Some sources have additional cont
 The following articles, books, and interviews are either written or at least contributed to by Gustavus Ide Jr.
 
 - [Wall of Memory](https://assets.mide.io/blog/2017-05-29/wall-of-memory.pdf) ([TXT](https://assets.mide.io/blog/2017-05-29/wall-of-memory.txt)) _Letter to the Editor written in 1999 about his search for those from the USS Glennon killed in action._
-- [To Save a Life at Sea](https://assets.mide.io/blog/2017-05-29/to-save-a-life-at-sea.pdf)) _Article he wrote for Tin Can Sailor in 1998 on the USS Glennon in the North Atlantic._
+- [To Save a Life at Sea](https://assets.mide.io/blog/2017-05-29/to-save-a-life-at-sea.pdf) _Article he wrote for Tin Can Sailor in 1998 on the USS Glennon in the North Atlantic._
 - [Natick Veterans Oral History Project](https://natickveterans.com/2017/08/10/gustavus-r-ide-jr-gus/) _The project to preserve oral history of veterans, by the [Morse Institute](https://morseinstitute.org)._
 - [The Natick Veterans Interview](https://www.youtube.com/watch?v=3gvff292ovo) ([Archive](https://assets.mide.io/blog/2017-05-29/ide-gustavus-live-interview.mp4)) _The actual interview with my grandfather._
 - [The USS Glennon (DD-620) in World War II: Documents and Photographs](http://destroyerhistory.org/benson-gleavesclass/ussglennon/index.asp?r=62000&pid=62090) ([Archive](https://assets.mide.io/blog/2017-05-29/e-andrew-wilde-uss-glennon.pdf)) _The very detailed book published by E. Andrew Wilde about the USS Glennon (DD-620)._
