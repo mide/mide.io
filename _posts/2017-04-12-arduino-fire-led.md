@@ -6,7 +6,7 @@ date:   2017-04-12 12:30:00
 
 ## About the Project
 
-The students at [Nipmuc Regional High School](http://www.mursd.org/Domain/8) recently put on a wonderful performance of [The Wizard of Oz](https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)). The whole cast did such a wonderful job, that I forgot I was watching a high school play and felt like I was watching the film.
+The students at [Nipmuc Regional High School](https://www.mursd.org/o/nipmuc-regional-high-school) recently put on a wonderful performance of [The Wizard of Oz](https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)). The whole cast did such a wonderful job, that I forgot I was watching a high school play and felt like I was watching the film.
 
 The [scarecrow](https://en.wikipedia.org/wiki/Scarecrow_(Oz)) has a couple of scenes where he is set on fire by the [wicked witch](https://en.wikipedia.org/wiki/Wicked_Witch_of_the_West). In one scene, it's just a few embers and in the other it's a full flame. Using an Arduino with a switch and an addressable RGB LED strip, we were able to supply some special effects.
 
