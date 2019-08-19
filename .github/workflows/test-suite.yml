@@ -1,0 +1,44 @@
+name: Test Suite
+
+on: push
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
+      - name: Set up Ruby 2.6 Environment
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+
+      - name: Install Bundler and Gems
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+
+      - name: Build Jekyll Website
+        run: bundle exec jekyll build
+
+      - name: Run Ruby Lint Check
+        run: bundle exec rake lint:ruby
+
+      - name: Run Markdown Lint Check
+        run: bundle exec rake lint:markdown
+
+      - name: Run Yaml Lint Check
+        run: bundle exec rake lint:yaml
+
+      - name: Run HTML Validity Tests
+        run: bundle exec rake test:html
+
+      - name: Run Remote Link Tests
+        run: bundle exec rake remote:links
+
+      - name: Run Remote EXIF Data Tests
+        run: bundle exec rake remote:exif
