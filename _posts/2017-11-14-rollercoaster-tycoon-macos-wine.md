@@ -113,10 +113,6 @@ In the upper left corner of that window, you'll see a small version of the Winer
 
 [![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/get-info-2.png)](https://assets.mide.io/blog/2017-11-14/get-info-2.png)
 
-That launcher can now be dragged onto your dock to quickly open the game.
-
-[![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/desktop-screenshot-1.png)](https://assets.mide.io/blog/2017-11-14/desktop-screenshot-1.png)
-
-You can now play the game like it's 1999!
+That launcher can now be dragged onto your dock to quickly open the game and you can now play the game like it's 1999!
 
 [![Screenshot of RCT](https://assets.mide.io/blog/2017-11-14/desktop-screenshot-2.png)](https://assets.mide.io/blog/2017-11-14/desktop-screenshot-2.png)
