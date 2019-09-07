@@ -19,13 +19,13 @@ permalink: humans.txt
 
 /* TEAM */
 
-    Name:     {{site.name_long}}
+    Name:     {{site.author}}
     Contact:  {{site.email}} and {{site.url}}/contact
     From:     Massachusetts, USA
 
 /* SITE */
 
-    Description: This website is the personal website of {{site.name_long}}.
+    Description: This website is the personal website of {{site.author}}.
     URL:         {{site.url}}
     Language:    English (EN)
     Source Code: {{site.source_url}}

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'colorize'
+require 'colorator'
 require 'exifr/jpeg'
 require 'html-proofer'
 require 'jekyll'
