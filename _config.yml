@@ -8,6 +8,10 @@ source_url: https://github.com/mide/mide.io
 strict_front_matter: true
 url: https://www.mide.io
 
+# Clean up code (see jekyll/jekyll#920 on GitHub)
+include:
+  - "_pages"
+
 # Jekyll Tidy Plugin
 jekyll_tidy:
   compress_html: false
