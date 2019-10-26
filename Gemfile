@@ -8,7 +8,7 @@ source 'https://rubygems.org' do
   gem 'jekyll-sitemap'
   gem 'jekyll-tidy'
   gem 'jekyll-toc'
-  # gem 'mdl', require: false
+  gem 'mdl', require: false
   gem 'rake'
   gem 'rubocop', require: false
   gem 'yaml-lint', require: false

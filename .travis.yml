@@ -20,10 +20,10 @@ jobs:
         - CMD="rake lint:ruby"
       script: bundle exec $CMD
 
-    # - stage: "Lint Checks"
-    #   env:
-    #     - CMD="rake lint:markdown"
-    #   script: bundle exec $CMD
+    - stage: "Lint Checks"
+      env:
+        - CMD="rake lint:markdown"
+      script: bundle exec $CMD
 
     - stage: "Lint Checks"
       env:
