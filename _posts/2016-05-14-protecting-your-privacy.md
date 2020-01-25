@@ -20,7 +20,7 @@ I've taken a few steps to make privacy easier for my visitors. Keep in mind that
 
 [I recently decided to disable]({{site.source_url}}/commit/e177909cf820c3af79ef855a48fcf48fb7b49324) Google Analytics. While it provided me with some great insight into the visitors of my website; I made the conscious decision that my visitor's privacy was not worth my curiosity factor.
 
-I have not replaced the functionality of [Google Anayltics](https://www.google.com/analytics/) with another tool (like [Piwik](https://piwik.org/) or others), but it's worth mentioning that [AWS CloudFront](https://aws.amazon.com/cloudfront/) is collecting some of this information (see the Tin Foil Hat section below).
+I have not replaced the functionality of [Google Analytics](https://www.google.com/analytics/) with another tool (like [Piwik](https://piwik.org/) or others), but it's worth mentioning that [AWS CloudFront](https://aws.amazon.com/cloudfront/) is collecting some of this information (see the Tin Foil Hat section below).
 
 ### HTTPS Addition and Automatic Redirection
 
@@ -28,7 +28,7 @@ I have moved my website hosting away from [GitHub Pages](https://pages.github.co
 
 I now use [AWS S3](https://aws.amazon.com/s3/) to host my website and the [AWS CloudFront](https://aws.amazon.com/cloudfront/) CDN to serve it. The TLS certificate is generated and managed by the [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/).
 
-### Assets Moved to Personal Doamin
+### Assets Moved to Personal Domain
 
 In an effort to keep my codebase small, I've been reluctant to add assets (photos, videos, etc) to it. This required me to host assets elsewhere, preferably for free or cheap. I previously used the following websites for asset hosting:
 

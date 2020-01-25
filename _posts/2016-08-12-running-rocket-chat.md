@@ -117,9 +117,9 @@ curl -X POST --data-urlencode "payload={\"text\":\"The backup is complete.\"" ht
 
 ### Chat Bot
 
-We have a resident chat bot named [David Swinton](http://www.imdb.com/title/tt0212720/). He's able to do some neat calculations in natural lanauge by being connected to [Wolfram Alpha](https://www.wolframalpha.com/). He's powered by [Hubot](https://hubot.github.com/) and we've configured him with multiple integrations. You can find all sorts of integrations on [npmjs.com](https://www.npmjs.com/search?q=hubot), and of course you can [build your own](https://github.com/github/hubot/blob/master/docs/scripting.md) too.
+We have a resident chat bot named [David Swinton](http://www.imdb.com/title/tt0212720/). He's able to do some neat calculations in natural language by being connected to [Wolfram Alpha](https://www.wolframalpha.com/). He's powered by [Hubot](https://hubot.github.com/) and we've configured him with multiple integrations. You can find all sorts of integrations on [npmjs.com](https://www.npmjs.com/search?q=hubot), and of course you can [build your own](https://github.com/github/hubot/blob/master/docs/scripting.md) too.
 
-I've made the descision to make our robot friend stateless, so I don't have to worry about restarting or updating him. He makes calls out to other APIs that maintain state.
+I've made the decision to make our robot friend stateless, so I don't have to worry about restarting or updating him. He makes calls out to other APIs that maintain state.
 
 [![Chat with David Swinton](https://assets.mide.io/blog/2016-08-12/david-swinton-screenshot.png)](https://assets.mide.io/blog/2016-08-12/david-swinton-screenshot.png)
 
