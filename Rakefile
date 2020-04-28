@@ -13,6 +13,9 @@ def ignored_domains
   @_ignored_domains ||= %(
     localhost
     a.co
+    cmara.org
+    donottrack-doc.com
+    navy.mil
   ).lines.map(&:strip).reject(&:empty?).sort.freeze
 end
 
