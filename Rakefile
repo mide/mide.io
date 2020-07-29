@@ -15,7 +15,7 @@ def ignored_domains
     a.co
     cmara.org
     donottrack-doc.com
-    navy.mil
+    wineskin.urgesoftware.com
   ).lines.map(&:strip).reject(&:empty?).sort.freeze
 end
 
@@ -103,9 +103,8 @@ namespace 'remote' do
         end
       end
     end
-    if failed_count.positive?
-      raise "Found #{failed_count} files with EXIF data. Expected zero."
-    end
+    # If there are failed cases, raise an error.
+    raise "Found #{failed_count} files with EXIF data. Expected zero." if failed_count.positive?
   end
 
   task links: %i[build] do

@@ -10,7 +10,7 @@ date:   2016-08-12 19:30:00
 
 [Rocket.Chat](https://rocket.chat) is an open source chat platform that is awesome for teams and families.
 
-My family uses it as an extension to SMS and email; we find it easier and faster to communicate with each other. It adds some great [emoji](http://emojione.com/), can be used on [multiple devices](https://rocket.chat/download) (laptop, phone, tablet, etc), and it's much cheaper than the nearest competitors.
+My family uses it as an extension to SMS and email; we find it easier and faster to communicate with each other. It adds some great [emoji](http://emojione.com/), can be used on [multiple devices](https://rocket.chat/install/) (laptop, phone, tablet, etc), and it's much cheaper than the nearest competitors.
 
 ## Running Rocket.Chat
 

@@ -20,7 +20,7 @@ I've taken a few steps to make privacy easier for my visitors. Keep in mind that
 
 [I recently decided to disable]({{site.source_url}}/commit/e177909cf820c3af79ef855a48fcf48fb7b49324) Google Analytics. While it provided me with some great insight into the visitors of my website; I made the conscious decision that my visitor's privacy was not worth my curiosity factor.
 
-I have not replaced the functionality of [Google Analytics](https://www.google.com/analytics/) with another tool (like [Piwik](https://piwik.org/) or others), but it's worth mentioning that [AWS CloudFront](https://aws.amazon.com/cloudfront/) is collecting some of this information (see the Tin Foil Hat section below).
+I have not replaced the functionality of [Google Analytics](https://www.google.com/analytics/) with another tool (like [Matomo (previously Piwik)](https://matomo.org/) or others), but it's worth mentioning that [AWS CloudFront](https://aws.amazon.com/cloudfront/) is collecting some of this information (see the Tin Foil Hat section below).
 
 ### HTTPS Addition and Automatic Redirection
 
