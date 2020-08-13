@@ -1,12 +1,13 @@
 author: Mark Ide Jr
 email: hello@cranstonide.com
 markdown: kramdown
-name_long: Mark Ide Jr
+name: Mark Ide Jr
 name_short: mide
 permalink: /blog/:year/:month/:day/:title.html
 source_url: https://github.com/mide/mide.io
 strict_front_matter: true
 url: https://www.mide.io
+description: The blog of Mark Ide Jr.
 
 # Clean up code (see jekyll/jekyll#920 on GitHub)
 include:
