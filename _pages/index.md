@@ -1,7 +1,8 @@
 ---
-layout: index
 hide_from_menu: true
 title: Mark Ide Jr
+layout: page
+permalink: /
 ---
 
 Hi there!
