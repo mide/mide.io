@@ -10,10 +10,10 @@ jobs:
       - name: Checkout Source
         uses: actions/checkout@v1
 
-      - name: Set up Ruby 2.6 Environment
+      - name: Set up Ruby 2.7 Environment
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
+          ruby-version: 2.7
 
       - name: Install Bundler and Gems
         run: |
