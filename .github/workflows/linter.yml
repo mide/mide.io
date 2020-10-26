@@ -1,0 +1,17 @@
+---
+name: Lint Code Base
+
+on: push
+
+jobs:
+  build:
+    name: Lint Codebase
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Lint Codebase
+        uses: docker://github/super-linter:v3
+        env:
+          VALIDATE_CSS: false
+          VALIDATE_HTML: false

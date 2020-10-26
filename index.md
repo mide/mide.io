@@ -1,6 +1,7 @@
 ---
 layout: index
 hide_from_menu: true
+title: Mark Ide Jr
 ---
 
 Hi there!

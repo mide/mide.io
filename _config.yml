@@ -23,7 +23,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE.txt
-  - markdown_lint_style.rb
   - Rakefile
   - README.md
   - vendor # Travis CI
