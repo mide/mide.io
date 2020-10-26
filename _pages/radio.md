@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Amateur Radio
 permalink: /radio/
+title: Amateur Radio
 ---
 
 Ahoy!

@@ -1,7 +1,7 @@
 ---
+date:   2016-03-23 11:30:00
 layout: post
 title:  "Insecure Security Cameras"
-date:   2016-03-23 11:30:00
 ---
 
 My family purchased a security camera system some time ago to add to our physical security stack. During initial setup, I discovered a handful of issues that left our security system a little insecure. This documents our journey through the sad state of consumer level security camera systems and how we worked around the limitations.

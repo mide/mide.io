@@ -1,7 +1,7 @@
 ---
+date:   2015-10-19 19:30:00
 layout: post
 title:  "Running a Ham Radio Net"
-date:   2015-10-19 19:30:00
 ---
 
 ## Background

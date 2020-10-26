@@ -1,7 +1,7 @@
 ---
+date:   2017-06-05 07:30:00
 layout: post
 title:  "Embed Twitter Without Tracking"
-date:   2017-06-05 07:30:00
 ---
 
 ## About

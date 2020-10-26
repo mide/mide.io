@@ -1,7 +1,7 @@
 ---
+date:   2016-08-12 19:30:00
 layout: post
 title:  "Running a Rocket.Chat Server"
-date:   2016-08-12 19:30:00
 ---
 
 ![Rocket.Chat Logo](https://assets.mide.io/blog/2016-08-12/logo-header.png)

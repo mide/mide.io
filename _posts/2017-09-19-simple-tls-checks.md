@@ -1,7 +1,7 @@
 ---
+date:   2017-09-19 17:00:00
 layout: post
 title:  "Simple TLS Certificate Checks"
-date:   2017-09-19 17:00:00
 ---
 
 ## Motivation

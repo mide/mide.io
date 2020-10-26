@@ -1,7 +1,7 @@
 ---
+date:   2017-04-12 12:30:00
 layout: post
 title:  "Arduino Controlled LED Fire Strip"
-date:   2017-04-12 12:30:00
 ---
 
 ## About the Project

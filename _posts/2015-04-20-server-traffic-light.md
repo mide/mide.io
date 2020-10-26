@@ -1,7 +1,7 @@
 ---
+date:   2015-04-20 16:12:48
 layout: post
 title:  "Server Traffic Light"
-date:   2015-04-20 16:12:48
 ---
 
 Some time ago, I read about [Greg Borenstein's GitHub Stoplight Project](http://urbanhonking.com/ideasfordozens/2010/05/19/the_github_stoplight/) and I thought how awesome it would be if I could do something of the sort at my company. So I set off to build one.

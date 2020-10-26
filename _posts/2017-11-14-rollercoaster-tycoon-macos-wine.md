@@ -1,7 +1,7 @@
 ---
+date:   2017-11-14 17:00:00
 layout: post
 title:  "RollerCoaster Tycoon on MacOS"
-date:   2017-11-14 17:00:00
 ---
 
 ## About

@@ -1,7 +1,7 @@
 ---
+date:   2017-03-04 12:30:00
 layout: post
 title:  "Publishing LaTeX PDFs using Travis CI"
-date:   2017-03-04 12:30:00
 ---
 
 ## Background

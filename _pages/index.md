@@ -1,8 +1,8 @@
 ---
 hide_from_menu: true
-title: Mark Ide Jr
 layout: page
 permalink: /
+title: Mark Ide Jr
 ---
 
 Hi there!

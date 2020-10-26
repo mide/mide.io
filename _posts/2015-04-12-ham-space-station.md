@@ -1,7 +1,7 @@
 ---
+date:   2015-04-12 17:00:00
 layout: post
 title:  "Listening to the Space Station"
-date:   2015-04-12 17:00:00
 ---
 
 I was told that the International Space Station would be doing a broadcast of some SSTV images on April 12, 2015. The transmission was to celebrate the anniversary of [Yuri Gagarin](https://en.wikipedia.org/wiki/Yuri_Gagarin) becoming the first human in space.
