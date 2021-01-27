@@ -11,7 +11,7 @@ The students at [Nipmuc Regional High School](https://www.mursd.org/o/nipmuc-reg
 The [scarecrow](https://en.wikipedia.org/wiki/Scarecrow_(Oz)) has a couple of scenes where he is set on fire by the [wicked witch](https://en.wikipedia.org/wiki/Wicked_Witch_of_the_West). In one scene, it's just a few embers and in the other it's a full flame. Using an Arduino with a switch and an addressable RGB LED strip, we were able to supply some special effects.
 
 <video controls loop>
-  <source src="https://assets.mide.io/blog/2017-04-12/led-project-recording.mp4" type="video/mp4">
+  <source src="https://assets.mide.io/blog/2017-04-12/led-project-recording.mp4" type="video/mp4" />
 Your browser does not support the video tag. <a href="https://assets.mide.io/blog/2017-04-12/led-project-recording.mp4">Video link</a>.
 </video>
 

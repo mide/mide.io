@@ -52,9 +52,6 @@ GEM
       htmlbeautifier
       htmlcompressor
       jekyll
-    jekyll-toc (0.17.0)
-      jekyll (>= 3.9)
-      nokogiri (~> 1.10)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.0)
@@ -102,7 +99,6 @@ DEPENDENCIES
   jekyll-feed!
   jekyll-sitemap!
   jekyll-tidy!
-  jekyll-toc!
   rake!
 
 BUNDLED WITH

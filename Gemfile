@@ -7,6 +7,5 @@ source 'https://rubygems.org' do
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'jekyll-tidy'
-  gem 'jekyll-toc'
   gem 'rake'
 end

@@ -22,7 +22,7 @@ My first attempt was to install Windows XP inside [VirtualBox](https://www.virtu
 
 The [OpenRCT Project](https://openrct2.org/) is an open source re-implementation of RollerCoaster Tycoon 2 (not 1, as I wanted). Many people want the additional features of RCT2 over RCT1, but I specifically was going for the nostalgia. I think the RCT2 project looks awesome and would recommend looking at it.
 
-## Running in Wine / Wineskin
+## Running under Wineskin
 
 I found a [great YouTube tutorial](https://www.youtube.com/watch?v=axC8A5suhQw) showing how to install RollerCoaster Tycoon via Wineskin. This tutorial used the [GOG distribution](https://www.gog.com/game/rollercoaster_tycoon_deluxe) of the game. I was hesitant to buy the game, since I already own it, but when I saw "DRM-FREE" I was sold.
 

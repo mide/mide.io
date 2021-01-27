@@ -157,7 +157,7 @@ Travis CI uses [OAuth](https://en.wikipedia.org/wiki/OAuth) to log in with your 
 
 [![Travis CI Create Account](https://assets.mide.io/blog/2017-03-04/travis-create-new-account.png)](https://assets.mide.io/blog/2017-03-04/travis-create-new-account.png)
 
-### Configure the Repository / Build
+### Configure the Repository and Build
 
 Once you have created your account, you'll need to tell Travis CI what repositories you'd like to build. Flip the switches on the projects that you want to build. In my case, I've turned on the build for `mide/sample-latex-project`.
 

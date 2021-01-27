@@ -41,7 +41,7 @@ If you're planning on doing trivia or the alike, you will want to have a good li
 To listen to what a net sounds like, this is a recording of George's Old Timer's Net from Monday, October 19th, 2015. Please note that some audio has been redacted by request. You may [download the audio here](https://assets.mide.io/blog/2015-10-19/ham-radio-net-recording.mp3).
 
 <audio controls>
-  <source src="https://assets.mide.io/blog/2015-10-19/ham-radio-net-recording.mp3" type="audio/mpeg">
+  <source src="https://assets.mide.io/blog/2015-10-19/ham-radio-net-recording.mp3" type="audio/mpeg" />
 Your browser does not support the audio element.
 </audio>
 
@@ -69,7 +69,7 @@ It's pretty normal to thank the club that runs the repeater and all the repeater
 
 If you're running an established net, this will probably be in your script.
 
-## Considerations & Tips
+## Considerations and Tips
 
 ### Don't Quick Key
 
@@ -91,7 +91,7 @@ Amateur radio nets, even the informal nets, are great practice for emergencies. 
 
 If you're net control for the evening, it's a good idea to make sure your equipment is working ahead of time. Ideally, you may even have a backup radio to continue the net in case something happens to your primary setup.
 
-### Fill-ins / Substitutes
+### Fill-ins and Substitutes
 
 If you're unable to run the net, it's a good idea to get coverage in advance. If I know I'm not going to be able to make the net, I'll call someone on the radio ask for coverage. Recently Herb, [`KC1CAR`](https://qrz.com/db/kc1car), has been very helpful in making sure someone always runs the net.
 

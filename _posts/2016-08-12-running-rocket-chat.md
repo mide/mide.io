@@ -94,7 +94,7 @@ Of course, you can add a [dead man's switch](https://en.wikipedia.org/wiki/Dead_
 
 I have a few extra lines in my script that upload `$BACKUP_FILE_FULL` to an [AWS S3](https://aws.amazon.com/s3/) bucket for really cheap off-site backups. If you use another solution you can add lines as needed.
 
-## TLS Certificate / Encryption
+## TLS Certificate and Encryption
 
 [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) is incredibly important to protect the privacy of users; it encrypts traffic from the client to the server. I use the [Let's Encrypt](https://letsencrypt.org/) project to acquire a domain validation TLS certificate for free.
 
@@ -150,7 +150,7 @@ docker run \
 
 The closest hosted competitors to Rocket.Chat are Slack and HipChat.
 
-### Pricing / License
+### Pricing and License
 
 I estimate a Rocket.Chat server can be run (Mongo, Rocket.Chat, Backups, and a chat bot) on an [AWS `t2.micro` instance](https://aws.amazon.com/ec2/instance-types/), and cost approximately $10 a month. These calculations are based off estimates, so keep that in mind.
 

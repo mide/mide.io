@@ -36,7 +36,7 @@ I have a fairly beefy computer, and I couldn't do anything while the client was 
 
 ## Solutions
 
-### Newer / Different DVR Unit
+### Newer and Different DVR Unit
 
 ![Hikvision DVR](https://assets.mide.io/blog/2016-03-23/hikvision-dvr-unit.jpg)
 
