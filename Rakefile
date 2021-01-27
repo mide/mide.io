@@ -14,6 +14,9 @@ def ignored_domains
     a.co
     cmara.org
     donottrack-doc.com
+    rocket.chat
+    theleggios.net
+    twitter.com
     wect.org
     wineskin.urgesoftware.com
   ).lines.map(&:strip).reject(&:empty?).sort.freeze

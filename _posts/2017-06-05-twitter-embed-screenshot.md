@@ -44,7 +44,7 @@ I have a [daily build job](https://travis-ci.org/mide/twitter-timeline-to-png) (
 - [GitHub Project](https://github.com/mide/twitter-timeline-to-png)
 - [TravisCI Build](https://travis-ci.org/mide/twitter-timeline-to-png)
 - [Result](https://assets.mide.io/common/twitter/twitter-timeline.png)
-- [My Twitter (@cranstonide)](https://www.twitter.com/cranstonide)
+- [My Twitter (@cranstonide)](https://twitter.com/cranstonide)
 
 ## Future Thoughts
 
